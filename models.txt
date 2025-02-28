@@ -1,3 +1,4 @@
 Whisper - ez
-Python SpeechRecognition - ez
+Python SpeechRecognition - 10 models preinstalled
 Kaldi - WSL only
+Wav2Vec Facebook - done

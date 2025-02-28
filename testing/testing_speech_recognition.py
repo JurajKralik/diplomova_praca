@@ -10,7 +10,7 @@ while True:
             recognizer.adjust_for_ambient_noise(mic, duration=0.2)
             audio = recognizer.listen(mic)
 
-            text = recognizer.recognize_google(audio)
+            text: str = recognizer.recognize_google(audio)
             text = text.lower()
 
             if text == "stop":
