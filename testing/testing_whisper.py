@@ -7,5 +7,5 @@ def use_whisper(file_name: str) -> str:
 
     result = model.transcribe(file_name)
     print("# Done")
-    
-    return result
+
+    return result["text"]
