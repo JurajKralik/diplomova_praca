@@ -1,4 +1,7 @@
-speech-to-text mixes with text-to-speech in google - search Speech recognition
+speech-to-text mixes with text-to-speech in google - search :
+-Speech recognition
+-ASR (automatic speech recognition)
+-computer speech recognition
 Natural language processing - subfield of computer science. Major tasks contains speech recognition
 
 

@@ -1,0 +1,3 @@
+Whisper - ez
+Python SpeechRecognition - ez
+Kaldi - WSL only
