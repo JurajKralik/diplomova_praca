@@ -1,10 +1,10 @@
-from testing_speech_recognition import use_speech_recognition
-from testing_whisper import use_whisper
-from testing_wav2vec import use_wav2vec
+from testing_speech_recognition import SpeechRecognitionModel
+from testing_whisper import WhisperModel
+from testing_wav2vec import Wav2Vec2Model
 import json
 import os
 import tkinter as tk
-from tkinter import filedialog, scrolledtext
+from tkinter import filedialog
 import time
 
 
@@ -41,8 +41,8 @@ def transcribe():
     output_dir = "testing/output/output.json"
     serial_number = 1
     while os.path.exists(output_dir):
-        base, ext = os.path.splitext(output_dir)
-        output_dir = f"{base}_{serial_number}{ext}"
+        base, ext = os.path.splitext("testing/output/output")
+        output_dir = f"{base}_{serial_number}{ext}.json"
         serial_number += 1
 
     print(f"Output will be saved to: {output_dir}")
@@ -57,6 +57,16 @@ def transcribe():
     folder_size = len(os.listdir(folder_path.get()))
     current_file = 0
 
+    if model_choice == "Speech Recognition":
+        model = SpeechRecognitionModel()
+    elif model_choice == "Whisper":
+        model = WhisperModel()
+    elif model_choice == "Wav2Vec":
+        model = Wav2Vec2Model()
+    else:
+        print("Please select a model.")
+        return
+
     for file_name in os.listdir(folder_path.get()):
         current_file += 1
         print("Processing file:", file_name, f"({current_file}/{folder_size})")
@@ -64,22 +74,9 @@ def transcribe():
         start_time = time.time()
         if file_name.lower().endswith(('.wav', '.mp3', '.flac')):
             full_path = os.path.join(folder_path.get(), file_name)
-            model_choice = model_var.get()
-            if model_choice == "Speech Recognition":
-                transcript = use_speech_recognition(full_path)
-            elif model_choice == "Whisper":
-                transcript = use_whisper(full_path)
-            elif model_choice == "Wav2Vec":
-                transcript = use_wav2vec(full_path)
-            else:
-                print("Please select a model.")
-                return
-            
+            transcript = model.transcribe(full_path)
             end_time = time.time()
             elapsed_time = end_time - start_time
-            text = f"Transcription for {file_name}:\n{transcript}\nTime taken: {elapsed_time:.2f} seconds"
-            text_output.delete(1.0, tk.END)
-            text_output.insert(tk.END, text)
             save_transcription(output_dir, file_name, transcript, elapsed_time)
         else:
             print(f"File {file_name} is not a valid audio file.")
@@ -96,7 +93,7 @@ def transcribe():
 # GUI
 root = tk.Tk()
 root.title("Speech Recognition GUI")
-root.geometry("600x400")
+root.geometry("450x300")
 
 folder_path = tk.StringVar()
 model_var = tk.StringVar(value="Model 1")
@@ -119,9 +116,5 @@ for model in ["Speech Recognition", "Whisper", "Wav2Vec"]:
 # Transcribe button
 transcribe_button = tk.Button(root, text="Transcribe", command=transcribe)
 transcribe_button.pack(pady=10)
-
-# Text output area
-text_output = scrolledtext.ScrolledText(root, width=70, height=10, wrap=tk.WORD)
-text_output.pack(pady=10)
 
 root.mainloop()

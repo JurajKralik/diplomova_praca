@@ -1,11 +1,10 @@
 import whisper
 
 
-def use_whisper(file_name: str) -> str:
-    model = whisper.load_model("turbo")
-    print("# Model loaded")
+class WhisperModel:
+    def __init__(self):
+        self.model = whisper.load_model("turbo")
 
-    result = model.transcribe(file_name)
-    print("# Done")
-
-    return result["text"]
+    def transcribe(self, file_name: str) -> str:
+        result = self.model.transcribe(file_name)
+        return result["text"]

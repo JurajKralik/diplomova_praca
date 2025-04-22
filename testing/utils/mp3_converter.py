@@ -5,7 +5,11 @@ from tkinter import filedialog
 def convert_mp3_to_wav(input_folder, output_folder):
 	os.makedirs(output_folder, exist_ok=True)
 
+	folder_size = len(os.listdir(input_folder))
+	current_file = 0
+	
 	for filename in os.listdir(input_folder):
+		current_file += 1
 		if filename.endswith('.mp3'):
 			mp3_path = os.path.join(input_folder, filename)
 			wav_filename = os.path.splitext(filename)[0] + '.wav'
@@ -14,7 +18,7 @@ def convert_mp3_to_wav(input_folder, output_folder):
 			# Load and convert
 			audio = AudioSegment.from_mp3(mp3_path)
 			audio.export(wav_path, format='wav')
-			print(f"Converted: {mp3_path} -> {wav_path}")
+			print(f"({current_file}/{folder_size}) Converted: {mp3_path} -> {wav_path} ")
 
 # Example usage
 input_path = filedialog.askdirectory()
