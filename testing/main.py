@@ -14,32 +14,54 @@ def select_folder():
     if new_path:
         folder_path.set(new_path)
 
-def save_transcription(model_used: str, folder: str, file_name: str, output: str, elapsed_time: float):
+def save_transcription(output_path: str, file_name: str, transcript: str, elapsed_time: float):
     """Saves transcription output to a JSON file with a unique serial number."""
-    base_name = f"{os.path.splitext(os.path.basename(file_name))[0]}"
-    
-    file_path = os.path.join(folder, f"{base_name}.json")
+    if not os.path.exists(output_path):
+        with open(output_path, "w", encoding="utf-8") as json_file:
+            json.dump({"results": []}, json_file, ensure_ascii=False, indent=4)
 
-    # Save
-    with open(file_path, "w", encoding="utf-8") as f:
-        json.dump({"text": output, "elapsed_time": elapsed_time, "model_used": model_used}, f, ensure_ascii=False, indent=4)
-
-    print(f"Transcription saved to {file_path}, time taken: {elapsed_time:.2f} seconds")
-    return
+    with open(output_path, "r+", encoding="utf-8") as json_file:
+        data = json.load(json_file)
+        result_entry = {
+            "file_name": file_name,
+            "transcript": transcript,
+            "elapsed_time": elapsed_time
+        }
+        data["results"].append(result_entry)
+        json_file.seek(0)
+        json.dump(data, json_file, ensure_ascii=False, indent=4)
+        json_file.truncate()
 
 def transcribe():
-    audio_file = folder_path.get()
-    if not audio_file:
-        result_text.set("Please select an audio file.")
+    audio_folder = folder_path.get()
+    if not audio_folder:
+        result_text.set("Please select an audio folder.")
         return
     
-    output_dir = create_output_dir()
-    total_time_start = time.time()
+    output_dir = "testing/output/output.json"
+    serial_number = 1
+    while os.path.exists(output_dir):
+        base, ext = os.path.splitext(output_dir)
+        output_dir = f"{base}_{serial_number}{ext}"
+        serial_number += 1
+
+    print(f"Output will be saved to: {output_dir}")
     model_choice = model_var.get()
 
+    output = {"model": model_choice, "results": []}
+    with open(output_dir, "w", encoding="utf-8") as json_file:
+        json.dump(output, json_file, ensure_ascii=False, indent=4)
+
+    total_time_start = time.time()
+
+    folder_size = len(os.listdir(folder_path.get()))
+    current_file = 0
+
     for file_name in os.listdir(folder_path.get()):
+        current_file += 1
+        print("Processing file:", file_name, f"({current_file}/{folder_size})")
+
         start_time = time.time()
-        print("Processing file:", file_name)
         if file_name.lower().endswith(('.wav', '.mp3', '.flac')):
             full_path = os.path.join(folder_path.get(), file_name)
             model_choice = model_var.get()
@@ -58,21 +80,18 @@ def transcribe():
             text = f"Transcription for {file_name}:\n{transcript}\nTime taken: {elapsed_time:.2f} seconds"
             text_output.delete(1.0, tk.END)
             text_output.insert(tk.END, text)
-            save_transcription(model_choice, output_dir, full_path, transcript, elapsed_time)
+            save_transcription(output_dir, file_name, transcript, elapsed_time)
         else:
             print(f"File {file_name} is not a valid audio file.")
             continue
     total_time_taken = time.time() - total_time_start
-    print(f"# Transcription done! Total time taken: {total_time_taken:.2f} seconds")
-
-def create_output_dir():
-    # Create output directory with a unique serial number
-    output_dir = "testing/output/"
-    serial_number = 1
-    while os.path.exists(f"{output_dir}{serial_number}"):
-        serial_number += 1
-    os.makedirs(f"{output_dir}{serial_number}", exist_ok=True)
-    return f"{output_dir}{serial_number}"
+    with open(output_dir, "r+", encoding="utf-8") as json_file:
+        data = json.load(json_file)
+        data["total_time_taken"] = total_time_taken
+        json_file.seek(0)
+        json.dump(data, json_file, ensure_ascii=False, indent=4)
+        json_file.truncate()
+    print(f"Done! Total time taken: {total_time_taken:.2f} seconds")
 
 # GUI
 root = tk.Tk()
@@ -84,11 +103,11 @@ model_var = tk.StringVar(value="Model 1")
 result_text = tk.StringVar()
 
 # File selection button
-file_button = tk.Button(root, text="Select Folder", command=select_folder)
-file_button.pack(pady=10)
+folder_button = tk.Button(root, text="Select Folder", command=select_folder)
+folder_button.pack(pady=10)
 
-file_label = tk.Label(root, textvariable=folder_path, wraplength=500)
-file_label.pack(pady=5)
+folder_label = tk.Label(root, textvariable=folder_path, wraplength=500)
+folder_label.pack(pady=5)
 
 # Model selection
 model_frame = tk.LabelFrame(root, text="Select Model")
