@@ -1,7 +1,18 @@
-import csv, json
+import csv, json, os, re
 from tkinter import filedialog
-import os
+from word2number import w2n
 
+
+SUBSTITUTIONS = {
+	"&": "and",
+	"@": "at",
+	"#": "number",
+	"$": "dollar",
+	"%": "percent",
+	"€": "euro",
+	"£": "pound",
+	"¢": "cent",
+}
 
 def get_sentence_for_file(tsv_path, target_filename):
     with open(tsv_path, "r", encoding="utf-8") as infile:
@@ -21,21 +32,38 @@ def get_sentence_for_file(tsv_path, target_filename):
                 )
     return None
 
+def get_additional_info_for_file(tsv_path, target_filename):
+	with open(tsv_path, "r", encoding="utf-8") as infile:
+		reader = csv.DictReader(infile, delimiter="\t")
+
+		for row in reader:
+			if row["path"].strip() == target_filename:
+				return {
+					"age": row.get("age", "").strip(),
+					"gender": row.get("gender", "").strip(),
+					"accents": row.get("accents", "").strip(),
+				}
+	return {"age": None, "gender": None, "accents": None}
 
 def main():
-    validated_tsv, result_json, output_json_path = get_file_paths()
+	validated_tsv, result_json, output_json_path = get_file_paths()
 
-    results = get_results(result_json)
-    evaluation = []
+	results = get_results(result_json)
+	evaluation = []
 
-    for result in results:
-        evaluated = compare_result(validated_tsv, result)
-        evaluation.append(evaluated)
+	for result in results:
+		evaluated = compare_result(validated_tsv, result)
+		evaluation.append(evaluated)
+		mp3_file_name = result["file_name"].replace(".wav", ".mp3")
+		additional_info = get_additional_info_for_file(validated_tsv.name, mp3_file_name)
+		evaluated.update(additional_info)
 
-    with open(output_json_path, "w", encoding="utf-8") as outfile:
-        json.dump(evaluation, outfile, ensure_ascii=False, indent=4)
+	average_match = sum(item["match"] for item in evaluation if "match" in item) / len(evaluation) if evaluation else 0.0
+	evaluation.append({"average_match": average_match})
+	with open(output_json_path, "w", encoding="utf-8") as outfile:
+		json.dump(evaluation, outfile, ensure_ascii=False, indent=4)
 
-    print(f"Evaluation results saved to {output_json_path}")
+	print(f"Evaluation results saved to {output_json_path}")
 
 
 def get_file_paths() -> tuple:
@@ -73,18 +101,21 @@ def compare_result(validated_tsv, result) -> dict:
 	transcript = result.get("transcript", "")
     
 	if transcript is None:
-		matching = sentence == transcript
 		print(f"Evaluating file: {file_name} - Transcription missing")
 		return {
 			"file_name": file_name,
 			"sentence": sentence,
 			"transcript": transcript,
-			"match": matching,
+			"match": 0.0,
 		}
 	else:
-		transcript = transcript.strip().lower()
-		matching = sentence == transcript
-		print(f"Evaluating file: {file_name} - Match found: {matching}")
+		transcript_words = normalize_text(transcript)
+		sentence_words = normalize_text(sentence) if sentence else []
+		matching = sum(
+			min(transcript_words.count(word), sentence_words.count(word))
+			for word in set(transcript_words)
+		) / max(len(sentence_words), 1)
+		print(f"Evaluating file: {file_name} - Match score: {matching:.2f}")
 
 		return {
 			"file_name": file_name,
@@ -92,6 +123,27 @@ def compare_result(validated_tsv, result) -> dict:
 			"transcript": transcript,
 			"match": matching,
 		}
+     
+def normalize_text(text):
+	# Replace symbols with words
+	for symbol, word in SUBSTITUTIONS.items():
+		text = text.replace(symbol, f" {word} ")
 
+	# Remove punctuation (optional, depends on your use case)
+	text = re.sub(r"[^\w\s]", "", text)
+
+	# Lowercase and split
+	words = text.lower().strip().split()
+
+	# Try converting word-numbers to digits
+	normalized = []
+	for word in words:
+		try:
+			num = w2n.word_to_num(word)
+			normalized.append(str(num))
+		except ValueError:
+			normalized.append(word)
+
+	return normalized
 
 main()

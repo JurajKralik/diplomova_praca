@@ -3,1860 +3,2793 @@
         "file_name": "common_voice_en_34925858.wav",
         "sentence": "the sugar bear character was popular enough to have occasional premium toys",
         "transcript": "the sugar bear character was popular enough to have occasional premium toys",
-        "match": true
+        "match": 1.0,
+        "age": "thirties",
+        "gender": "female",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34925859.wav",
         "sentence": "it is one of the most watched television networks in the country",
         "transcript": "it is one of the most watched television networks in the country",
-        "match": true
+        "match": 1.0,
+        "age": "thirties",
+        "gender": "female",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34925860.wav",
         "sentence": "it could be carried and prepared by the individual soldier",
         "transcript": "it could be carried and prepared by the individual soldier",
-        "match": true
+        "match": 1.0,
+        "age": "thirties",
+        "gender": "female",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34925870.wav",
         "sentence": "gadya is the nearest rural locality",
         "transcript": "katya is the nearest rural locality",
-        "match": false
+        "match": 0.8333333333333334,
+        "age": "thirties",
+        "gender": "female",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34925871.wav",
         "sentence": "taxes are a tool in the adjustment of the economy",
         "transcript": "taxes are a tool in the adjustment of the economy",
-        "match": true
+        "match": 1.0,
+        "age": "thirties",
+        "gender": "female",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34925877.wav",
         "sentence": "these sets come in several variants based on titles for children",
         "transcript": "these sets come in several variants based on titles for children",
-        "match": true
+        "match": 1.0,
+        "age": "thirties",
+        "gender": "female",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34925879.wav",
         "sentence": "cause of death was metastasized carcinoma",
         "transcript": "cause of death was metastasized carcinoma",
-        "match": true
+        "match": 1.0,
+        "age": "thirties",
+        "gender": "female",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34925880.wav",
         "sentence": "it was shortlisted for the samuel johnson prize for the same year",
         "transcript": "it was shortlisted for the samuel johnson prize for the same year",
-        "match": true
+        "match": 1.0,
+        "age": "thirties",
+        "gender": "female",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34925888.wav",
         "sentence": "traffickers transport victims to locations with webcams and live streaming software",
         "transcript": "trafficers transport victims to locations with webcams and live streaming software",
-        "match": false
+        "match": 0.9090909090909091,
+        "age": "thirties",
+        "gender": "female",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34925891.wav",
         "sentence": "earned media often refers specifically to publicity gained through editorial influence of various kinds",
         "transcript": "earned media often refers specifically to publicity gained through editorial influence of various kinds",
-        "match": true
+        "match": 1.0,
+        "age": "thirties",
+        "gender": "female",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34925904.wav",
         "sentence": "later li joined the army of a local warlord in hunan",
         "transcript": "later we join the army of a local warlord in hunan",
-        "match": false
+        "match": 0.8181818181818182,
+        "age": "thirties",
+        "gender": "female",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34925905.wav",
         "sentence": "his father robert yerburgh had earlier represented chester in parliament",
         "transcript": "his father robert yarborough had earlier represented chester in parliament",
-        "match": false
+        "match": 0.9,
+        "age": "thirties",
+        "gender": "female",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34925913.wav",
         "sentence": "media accounts said that mccrory was the primary target of attacks by his rivals",
         "transcript": "media accounts said that mccrory was the primary target of attacks by his rivals",
-        "match": true
+        "match": 1.0,
+        "age": "thirties",
+        "gender": "female",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34925914.wav",
         "sentence": "some portions have been built using burnt brick",
         "transcript": "some portions have been built using burnt brick",
-        "match": true
+        "match": 1.0,
+        "age": "thirties",
+        "gender": "female",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34925915.wav",
         "sentence": "a full facility load consists of nine vertically stacked capsules",
         "transcript": "a full facility load consists of nine vertically stacked capsules",
-        "match": true
+        "match": 1.0,
+        "age": "thirties",
+        "gender": "female",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34925916.wav",
         "sentence": "as the program progressed the name was changed to voyager",
         "transcript": "as a program progressed the name was changed to voyager",
-        "match": false
+        "match": 0.9,
+        "age": "thirties",
+        "gender": "female",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34925918.wav",
         "sentence": "the band continued to use the contrasting vocals in future albums",
         "transcript": "the band continued to use the contrasting vocals in future albums",
-        "match": true
+        "match": 1.0,
+        "age": "thirties",
+        "gender": "female",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34925922.wav",
         "sentence": "ayo created work in the tradition of conceptual art",
         "transcript": "io created work in the tradition of conceptual art",
-        "match": false
+        "match": 0.8888888888888888,
+        "age": "thirties",
+        "gender": "female",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34925923.wav",
         "sentence": "the story was by brown meggs and stephen zito",
         "transcript": "the story was by brown megs and steven zito",
-        "match": false
+        "match": 0.7777777777777778,
+        "age": "thirties",
+        "gender": "female",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34925924.wav",
         "sentence": "they go to some stand and eat enchiladas and tamales",
         "transcript": "they go to some stand and eat enchiladas and tamales",
-        "match": true
+        "match": 1.0,
+        "age": "thirties",
+        "gender": "female",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34925926.wav",
         "sentence": "the resulting work is indeed of epic difficulty but has been recorded several times",
         "transcript": "the resulting work is indeed of epic difficulty but has been recorded several times",
-        "match": true
+        "match": 1.0,
+        "age": "thirties",
+        "gender": "female",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34925927.wav",
         "sentence": "leonardo also achieved various honors in the kingdom of naples",
         "transcript": "leonardo also achieved various honors in the kingdom of naples",
-        "match": true
+        "match": 1.0,
+        "age": "thirties",
+        "gender": "female",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34925928.wav",
         "sentence": "camp",
         "transcript": "camp",
-        "match": true
+        "match": 1.0,
+        "age": "thirties",
+        "gender": "female",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34925929.wav",
         "sentence": "in the stories they are thomas the tank engine's passenger coaches",
         "transcript": "in the stories they are thomas the tank engines passenger coaches",
-        "match": false
+        "match": 1.0,
+        "age": "thirties",
+        "gender": "female",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34925931.wav",
         "sentence": "in compensation the design was given a relatively heavy secondary armament",
         "transcript": "in compensation the design was given a relatively heavy secondary armament",
-        "match": true
+        "match": 1.0,
+        "age": "thirties",
+        "gender": "female",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34925939.wav",
         "sentence": "its seat is joliette",
         "transcript": "its seat is juliet",
-        "match": false
+        "match": 0.75,
+        "age": "thirties",
+        "gender": "female",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34925940.wav",
         "sentence": "this subsequently turned ben face",
         "transcript": "the subsequently turned ben face",
-        "match": false
+        "match": 0.8,
+        "age": "thirties",
+        "gender": "female",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34925941.wav",
         "sentence": "indeed cancellation occurs in the standard model",
         "transcript": "indeed cancellation occurs in the standard model",
-        "match": true
+        "match": 1.0,
+        "age": "thirties",
+        "gender": "female",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34925952.wav",
         "sentence": "they are not a form of professional qualification",
         "transcript": "they are not a form of professional qualification",
-        "match": true
+        "match": 1.0,
+        "age": "thirties",
+        "gender": "female",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34925954.wav",
         "sentence": "his sister margaret died this same year",
         "transcript": "his sister margaret died the same year",
-        "match": false
+        "match": 0.8571428571428571,
+        "age": "thirties",
+        "gender": "female",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34925963.wav",
         "sentence": "this picture is also known as the hitchhiker",
         "transcript": "this picture is also known as the hitchhiker",
-        "match": true
+        "match": 1.0,
+        "age": "thirties",
+        "gender": "female",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34925964.wav",
         "sentence": "barnes and walker ambush three of them and see them taken into custody",
         "transcript": "barnes & walker ambush three of them and see them taken into custody",
-        "match": false
+        "match": 1.0,
+        "age": "thirties",
+        "gender": "female",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34925966.wav",
         "sentence": "the community also includes a washington street",
         "transcript": "the community also includes a washington street",
-        "match": true
+        "match": 1.0,
+        "age": "thirties",
+        "gender": "female",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34925967.wav",
         "sentence": "the camera is placed through the umbilical port and the abdominal cavity is inspected",
         "transcript": "the camera is placed through the umbilical port and the abdominal cavity is inspected",
-        "match": true
+        "match": 1.0,
+        "age": "thirties",
+        "gender": "female",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34925969.wav",
         "sentence": "it is sometimes referred to as a branch of the caldon canal",
         "transcript": "it is sometimes referred to as a branch of the called and canal",
-        "match": false
+        "match": 0.9166666666666666,
+        "age": "thirties",
+        "gender": "female",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34925976.wav",
         "sentence": "these were dragged more than from the quarry to the river on wooden sledges",
         "transcript": "these were dragged more than from the quarry to the river on wooden sledges",
-        "match": true
+        "match": 1.0,
+        "age": "thirties",
+        "gender": "female",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34925978.wav",
         "sentence": "the final exchange was also the most public",
         "transcript": "the final exchange was also the most public",
-        "match": true
+        "match": 1.0,
+        "age": "thirties",
+        "gender": "female",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34925981.wav",
         "sentence": "built in tudor style the house is open to groups by prior arrangement",
         "transcript": "built in tudor style the house is open to groups by prior arrangement",
-        "match": true
+        "match": 1.0,
+        "age": "thirties",
+        "gender": "female",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34925987.wav",
         "sentence": "the kitty is deeply asleep",
         "transcript": "the kitty is deeply asleep",
-        "match": true
+        "match": 1.0,
+        "age": "thirties",
+        "gender": "female",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34925988.wav",
         "sentence": "this outline of the story is told in the iliad",
         "transcript": "this outline of the story is told in the iliad",
-        "match": true
+        "match": 1.0,
+        "age": "thirties",
+        "gender": "female",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34925989.wav",
         "sentence": "the stadium is also used regularly by the french rugby union team",
         "transcript": "the stadium is also used regularly by the french rugby union team",
-        "match": true
+        "match": 1.0,
+        "age": "thirties",
+        "gender": "female",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34925990.wav",
         "sentence": "there are still other sites with tourism potential in the locality",
         "transcript": "there are still other sites with tourism potential in the locality",
-        "match": true
+        "match": 1.0,
+        "age": "thirties",
+        "gender": "female",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34925991.wav",
         "sentence": "there was much debate over the value of the book",
         "transcript": "there was much debate over the value of the book",
-        "match": true
+        "match": 1.0,
+        "age": "thirties",
+        "gender": "female",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34925995.wav",
         "sentence": "saint gall was founded where saint gall had settled and died",
         "transcript": "saint gal was founded where saint paul had settled and died",
-        "match": false
+        "match": 0.8181818181818182,
+        "age": "thirties",
+        "gender": "female",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34925996.wav",
         "sentence": "this marine reserves network was established to protect whole ecosystems and restore ecosystem health",
         "transcript": "this marine reserves network was established to protect whole ecosystems and restore ecosystem health",
-        "match": true
+        "match": 1.0,
+        "age": "thirties",
+        "gender": "female",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34925997.wav",
         "sentence": "five singles were released from hangin' tough",
         "transcript": "five singles were released from hangin tough",
-        "match": false
+        "match": 1.0,
+        "age": "thirties",
+        "gender": "female",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34925999.wav",
         "sentence": "he was double majoring in business and film",
         "transcript": "he was double majoring in business and film",
-        "match": true
+        "match": 1.0,
+        "age": "thirties",
+        "gender": "female",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34926000.wav",
         "sentence": "eight were killed",
         "transcript": "8 were killed",
-        "match": false
+        "match": 1.0,
+        "age": "thirties",
+        "gender": "female",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34926001.wav",
         "sentence": "around this time he appeared regularly as a soloist with american orchestras",
         "transcript": "around this time he appeared regularly as a soloist with american orchestras",
-        "match": true
+        "match": 1.0,
+        "age": "thirties",
+        "gender": "female",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34926008.wav",
         "sentence": "break was a more uncertain quantity",
         "transcript": "break was a more uncertain quantity",
-        "match": true
+        "match": 1.0,
+        "age": "thirties",
+        "gender": "female",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34926009.wav",
         "sentence": "the cast was led by james mason",
         "transcript": "the cast was led by james mason",
-        "match": true
+        "match": 1.0,
+        "age": "thirties",
+        "gender": "female",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34926010.wav",
         "sentence": "a telegraph operator would translate the sounds into characters representing the telegraph message",
         "transcript": "a telegraph operator would translate the sounds into characters representing the telegraph message",
-        "match": true
+        "match": 1.0,
+        "age": "thirties",
+        "gender": "female",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34926011.wav",
         "sentence": "the group organized under the name the daughters of zion",
         "transcript": "the group organized under the name the daughters of zion",
-        "match": true
+        "match": 1.0,
+        "age": "thirties",
+        "gender": "female",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34926012.wav",
         "sentence": "he glanced at alex apologetically as though craving encouragement",
         "transcript": "he glanced at alex apologetically as though craving encouragement",
-        "match": true
+        "match": 1.0,
+        "age": "thirties",
+        "gender": "female",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34926019.wav",
         "sentence": "it took nineteen years before this prediction was confirmed",
         "transcript": "it took 19 years before this prediction was confirmed",
-        "match": false
+        "match": 1.0,
+        "age": "",
+        "gender": "",
+        "accents": ""
     },
     {
         "file_name": "common_voice_en_34926020.wav",
         "sentence": "such firearms are thus potentially less reliable as a result",
         "transcript": "search firearms at best potentially less reliable as a result",
-        "match": false
+        "match": 0.7,
+        "age": "",
+        "gender": "",
+        "accents": ""
     },
     {
         "file_name": "common_voice_en_34926021.wav",
         "sentence": "they had one son pete teddlie",
         "transcript": "they had one son pete teddlie",
-        "match": true
+        "match": 1.0,
+        "age": "thirties",
+        "gender": "female",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34926022.wav",
         "sentence": "the northern part of the borough is close to the manchester urban area",
         "transcript": "the northern part of the borough is close to the manchester urban area",
-        "match": true
+        "match": 1.0,
+        "age": "thirties",
+        "gender": "female",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34926023.wav",
         "sentence": "he also worked extensively with the national council of teachers of english",
         "transcript": "he also worked extensively with the national council of teachers of english",
-        "match": true
+        "match": 1.0,
+        "age": "thirties",
+        "gender": "female",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34926025.wav",
         "sentence": "fundamentals of cost accounting",
         "transcript": "fundamentals of cost accounting",
-        "match": true
+        "match": 1.0,
+        "age": "thirties",
+        "gender": "female",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34926026.wav",
         "sentence": "united states were eliminated as bebeto scored brazil's winning goal",
         "transcript": "united states were eliminated as bebeto scored brazil's winning goal",
-        "match": true
+        "match": 1.0,
+        "age": "thirties",
+        "gender": "female",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34926030.wav",
         "sentence": "but a pencil is technology",
         "transcript": "but a pencil is technology",
-        "match": true
+        "match": 1.0,
+        "age": "thirties",
+        "gender": "female",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34926038.wav",
         "sentence": "islamic banks remain a relatively minor force in world finance",
         "transcript": "islamic banks remain a relatively minor force in world finance",
-        "match": true
+        "match": 1.0,
+        "age": "thirties",
+        "gender": "female",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34926039.wav",
         "sentence": "hirschbiegel was born in hamburg germany",
         "transcript": "hirsch beagle was born in hamburg germany",
-        "match": false
+        "match": 0.8333333333333334,
+        "age": "thirties",
+        "gender": "female",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34926040.wav",
         "sentence": "i don’t exactly remember",
         "transcript": "i don't exactly remember",
-        "match": false
+        "match": 1.0,
+        "age": "thirties",
+        "gender": "female",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34926047.wav",
         "sentence": "the materials commonly used are sand peat and natural stone fibre",
         "transcript": "the materials commonly used are sand pete and natural stone fiber",
-        "match": false
+        "match": 0.8181818181818182,
+        "age": "thirties",
+        "gender": "female",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34926048.wav",
         "sentence": "there is a debate about the origin of the name",
         "transcript": "there is a debate about the origin of the name",
-        "match": true
+        "match": 1.0,
+        "age": "thirties",
+        "gender": "female",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34926049.wav",
         "sentence": "he also holds german citizenship",
         "transcript": "he also holds german citizenship",
-        "match": true
+        "match": 1.0,
+        "age": "thirties",
+        "gender": "female",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34926066.wav",
         "sentence": "charlemagne and the other men at court were known by affectionate and jesting nicknames",
         "transcript": "charlemagne and the other men at court were known by affectionate and jesting nicknames",
-        "match": true
+        "match": 1.0,
+        "age": "thirties",
+        "gender": "female",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34926067.wav",
         "sentence": "some items can help or hinder the digestion in the hero",
         "transcript": "some items can help or hinder the digestion in the hero",
-        "match": true
+        "match": 1.0,
+        "age": "thirties",
+        "gender": "female",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34926068.wav",
         "sentence": "sir evelyn baring was appointed as the british controller",
         "transcript": "sir evelyn baring was appointed as the british controller",
-        "match": true
+        "match": 1.0,
+        "age": "thirties",
+        "gender": "female",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34926077.wav",
         "sentence": "other common tools include stamp catalogues stamp stock books and stamp hinges",
         "transcript": "other common tools include stamp catalogs stamp stock books and stamp hinges",
-        "match": false
+        "match": 0.9166666666666666,
+        "age": "thirties",
+        "gender": "female",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34926078.wav",
         "sentence": "some balance must be struck that maximizes return and minimizes risk",
         "transcript": "some balance must be struck that maximizes return and minimizes risk",
-        "match": true
+        "match": 1.0,
+        "age": "thirties",
+        "gender": "female",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34926093.wav",
         "sentence": "he later worked as a telegraph operator for a railway",
         "transcript": "she later worked as a telegraph operator for a railway",
-        "match": false
+        "match": 0.9,
+        "age": "thirties",
+        "gender": "female",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34926112.wav",
         "sentence": "from a parental perspective good daycare can complement good parenting",
         "transcript": "from a parental perspective good daycare can complement good parenting",
-        "match": true
+        "match": 1.0,
+        "age": "thirties",
+        "gender": "female",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34926115.wav",
         "sentence": "pyruvate dehydrogenase deficiency can result from mutations in any of the enzymes or cofactors",
         "transcript": "pyruvate dehydrogenase deficiency can result from mutations in any of the enzymes or cofactors",
-        "match": true
+        "match": 1.0,
+        "age": "thirties",
+        "gender": "female",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34926125.wav",
         "sentence": "horses thundered over the old wooden bridge dragging heavy engines and trucks behind them",
         "transcript": "horses thundered over the old wooden bridge dragging heavy engines and trucks behind them",
-        "match": true
+        "match": 1.0,
+        "age": "thirties",
+        "gender": "female",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34926126.wav",
         "sentence": "subsequently he was appointed district officer",
         "transcript": "subsequently he was appointed district officer",
-        "match": true
+        "match": 1.0,
+        "age": "thirties",
+        "gender": "female",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34926142.wav",
         "sentence": "it depicts max awakening in an abandoned landscape while appearing injured",
         "transcript": "it depicts max awakening in an abandoned landscape while appearing injured",
-        "match": true
+        "match": 1.0,
+        "age": "thirties",
+        "gender": "female",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34926143.wav",
         "sentence": "this set club members to looking for a new site",
         "transcript": "this set club members to looking for a new site",
-        "match": true
+        "match": 1.0,
+        "age": "thirties",
+        "gender": "female",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34926145.wav",
         "sentence": "over twenty close assaults were launched with sword-armed northwestern army soldiers repelling them",
         "transcript": "sword armed northwestern army soldiers repelling them",
-        "match": false
+        "match": 0.38461538461538464,
+        "age": "thirties",
+        "gender": "female",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34926146.wav",
         "sentence": "her brother erik holstein competed in showing and rein classes",
         "transcript": "her brother eric holstein competed in showing and reigned classes",
-        "match": false
+        "match": 0.8,
+        "age": "thirties",
+        "gender": "female",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34926162.wav",
         "sentence": "but a lot of them happened very quickly",
         "transcript": "but a lot of them happened very quickly",
-        "match": true
+        "match": 1.0,
+        "age": "thirties",
+        "gender": "female",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34926163.wav",
         "sentence": "nonetheless independent programmers continued to make their own games",
         "transcript": "nonetheless independent programmers continue to make their own games",
-        "match": false
+        "match": 0.8888888888888888,
+        "age": "thirties",
+        "gender": "female",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34926164.wav",
         "sentence": "the village is located mostly within the town of oconomowoc in waukesha county",
         "transcript": "the village is located mostly within the town of oconomowoc in waukesha county",
-        "match": true
+        "match": 1.0,
+        "age": "thirties",
+        "gender": "female",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34926165.wav",
         "sentence": "she was sobbing almost without tears profoundly and bitterly",
         "transcript": "she was sobbing almost without tears profoundly and bitterly",
-        "match": true
+        "match": 1.0,
+        "age": "thirties",
+        "gender": "female",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34926166.wav",
         "sentence": "onatopp then hijacks the prototype eurocopter tiger by killing the two pilots",
         "transcript": "on a tops and hijacks the prototype eurocopter tiger by killing the two pilots",
-        "match": false
+        "match": 0.8333333333333334,
+        "age": "thirties",
+        "gender": "female",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34926176.wav",
         "sentence": "the church was later renamed the united church of christ",
         "transcript": "the church was later renamed the united church of christ",
-        "match": true
+        "match": 1.0,
+        "age": "thirties",
+        "gender": "female",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34926180.wav",
         "sentence": "the other two were carlisle in pennsylvania and haskell in kansas",
         "transcript": "the other two were carlisle in pennsylvania and haskell in kansas",
-        "match": true
+        "match": 1.0,
+        "age": "thirties",
+        "gender": "female",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34926191.wav",
         "sentence": "connolly was a former montana prosecutor",
         "transcript": "connolly was a former montana prosecutor",
-        "match": true
+        "match": 1.0,
+        "age": "thirties",
+        "gender": "female",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34926192.wav",
         "sentence": "it is owned by the indian business conglomerate wadia group",
         "transcript": "it is owned by the indian business conglomerate wadia group",
-        "match": true
+        "match": 1.0,
+        "age": "thirties",
+        "gender": "female",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34926193.wav",
         "sentence": "the strength of the district remains its period architecture",
         "transcript": "the strength of the district remains its period architecture",
-        "match": true
+        "match": 1.0,
+        "age": "thirties",
+        "gender": "female",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34926195.wav",
         "sentence": "the logistical and engineering difficulties he encountered were abnormal because of the remote location",
         "transcript": "the logistical and engineering difficulties he encountered were abnormal because of the remote location",
-        "match": true
+        "match": 1.0,
+        "age": "thirties",
+        "gender": "female",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34926197.wav",
         "sentence": "“don’t you think so?” he persisted",
         "transcript": "don't you think so he persisted",
-        "match": false
+        "match": 1.0,
+        "age": "thirties",
+        "gender": "female",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34926198.wav",
         "sentence": "task force on youth suicide report",
         "transcript": "task force on youth suicide report",
-        "match": true
+        "match": 1.0,
+        "age": "thirties",
+        "gender": "female",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34926199.wav",
         "sentence": "the councils were of various types each with a constitutional history of its own",
         "transcript": "the councils were of various types each with a constitutional history of its own",
-        "match": true
+        "match": 1.0,
+        "age": "thirties",
+        "gender": "female",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34926214.wav",
         "sentence": "he was a member of the editorial board for the rutherford journal",
         "transcript": "he was a member of the editorial board for the rutherford journal",
-        "match": true
+        "match": 1.0,
+        "age": "thirties",
+        "gender": "female",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34926215.wav",
         "sentence": "candido won the match by pinfall following the blonde bombshell",
         "transcript": "candido on the match by pinfall following the blonde bombshell",
-        "match": false
+        "match": 0.9,
+        "age": "thirties",
+        "gender": "female",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34926227.wav",
         "sentence": "rhodes has helped found many organizations and sits upon several board of directors",
         "transcript": "rhodes has helped found many organizations and sits upon several board of directors",
-        "match": true
+        "match": 1.0,
+        "age": "thirties",
+        "gender": "female",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34926229.wav",
         "sentence": "the bottom of this lake is covered with a layer of liquid sulfur",
         "transcript": "the bottom of this lake is covered with a layer of liquid sulfur",
-        "match": true
+        "match": 1.0,
+        "age": "thirties",
+        "gender": "female",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34926238.wav",
         "sentence": "he recently scored a hat trick against russia",
         "transcript": "he recently scored a hat-trick against russia",
-        "match": false
+        "match": 0.75,
+        "age": "thirties",
+        "gender": "female",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34926239.wav",
         "sentence": "he always regarded others with great manners",
         "transcript": "he always regarded others with great manners",
-        "match": true
+        "match": 1.0,
+        "age": "thirties",
+        "gender": "female",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34926246.wav",
         "sentence": "note: this list is incomplete",
         "transcript": "know this list is incomplete",
-        "match": false
+        "match": 0.8,
+        "age": "thirties",
+        "gender": "female",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34926247.wav",
         "sentence": "the jackals lost in the first round",
         "transcript": "the jackals lost in the first round",
-        "match": true
+        "match": 1.0,
+        "age": "thirties",
+        "gender": "female",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34926248.wav",
         "sentence": "freestyling can also be used as a songwriting method for albums or mixtapes",
         "transcript": "freestyling can also be used as a songwriting method for albums or mixtapes",
-        "match": true
+        "match": 1.0,
+        "age": "thirties",
+        "gender": "female",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34926249.wav",
         "sentence": "he was the son of barrister and politician archibald fraser",
         "transcript": "he was the son of barrister and politician archibald fraser",
-        "match": true
+        "match": 1.0,
+        "age": "thirties",
+        "gender": "female",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34926250.wav",
         "sentence": "the local economy is agriculturally and service industry based",
         "transcript": "the local economy is agriculturally and service industry based",
-        "match": true
+        "match": 1.0,
+        "age": "thirties",
+        "gender": "female",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34926265.wav",
         "sentence": "no roads connect the municipality to the rest of isabela",
         "transcript": "no roads connect the municipality to the rest of isabella",
-        "match": false
+        "match": 0.9,
+        "age": "thirties",
+        "gender": "female",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34926271.wav",
         "sentence": "authorisation then may have come after the fact",
         "transcript": "authorization then may have come after the fact",
-        "match": false
+        "match": 0.875,
+        "age": "thirties",
+        "gender": "female",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34926273.wav",
         "sentence": "when thrown this unfurled and acted as a tail to stabilize flight",
         "transcript": "when thrown this unfurled and acted as a tale to stabilize flight",
-        "match": false
+        "match": 0.9166666666666666,
+        "age": "thirties",
+        "gender": "female",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34926274.wav",
         "sentence": "ungoliant means dark spider in tolkien's invented language of sindarin",
         "transcript": "ungoliant means dark spider in tolkien's invented language of sindarin",
-        "match": true
+        "match": 1.0,
+        "age": "thirties",
+        "gender": "female",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34926275.wav",
         "sentence": "in the canton-wide election they received the third highest proportion of votes",
         "transcript": "in the canton wide election they received the third highest proportion of votes",
-        "match": false
+        "match": 0.9166666666666666,
+        "age": "thirties",
+        "gender": "female",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34926797.wav",
         "sentence": "the building incorporates a new public library",
         "transcript": "the building incorporates a new public library",
-        "match": true
+        "match": 1.0,
+        "age": "twenties",
+        "gender": "male",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34926799.wav",
         "sentence": "holland had an elastica song named in her honour",
         "transcript": "holland had in alaska song named in her honor",
-        "match": false
+        "match": 0.6666666666666666,
+        "age": "twenties",
+        "gender": "male",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34926808.wav",
         "sentence": "the film has had a significant influence on popular culture",
         "transcript": "the film has had a significant influence on popular culture",
-        "match": true
+        "match": 1.0,
+        "age": "twenties",
+        "gender": "male",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34926812.wav",
         "sentence": "the approach of the elves and their song to elbereth drove off the enemy",
         "transcript": "the approach of the elves and their song to el breathe drove off the enemy",
-        "match": false
+        "match": 0.9285714285714286,
+        "age": "twenties",
+        "gender": "male",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34926814.wav",
         "sentence": "pavel curtis at xerox parc noted that they were almost exclusively for recreational purposes",
         "transcript": "pavel curtis at xerox parc noted that they were almost exclusively for recreational purposes",
-        "match": true
+        "match": 1.0,
+        "age": "twenties",
+        "gender": "male",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34926821.wav",
         "sentence": "the judicial system was fair and generally humane",
         "transcript": "the judicial system was fair and generally humane",
-        "match": true
+        "match": 1.0,
+        "age": "twenties",
+        "gender": "male",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34926824.wav",
         "sentence": "the milk is thus produced according to the tradition in the alps",
         "transcript": "the milk is thus produced according to the tradition in the alps",
-        "match": true
+        "match": 1.0,
+        "age": "",
+        "gender": "",
+        "accents": ""
     },
     {
         "file_name": "common_voice_en_34926855.wav",
         "sentence": "the settlement grew and eventually took the name of this fort",
         "transcript": "the settlement grew and eventually took the name of the sport",
-        "match": false
+        "match": 0.8181818181818182,
+        "age": "twenties",
+        "gender": "male",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34926869.wav",
         "sentence": "the upper mandible is black the lower is yellow with a black tip",
         "transcript": "the upper mandible is black the lower is yellow with a black tip",
-        "match": true
+        "match": 1.0,
+        "age": "thirties",
+        "gender": "female",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34926870.wav",
         "sentence": "it remains the only work of importance between the kiribati and a western language",
         "transcript": "it remains the only work of importance between the kiribati and a western language",
-        "match": true
+        "match": 1.0,
+        "age": "thirties",
+        "gender": "female",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34926871.wav",
         "sentence": "a number of federal and provincial government departments are located here",
         "transcript": "a number of federal and provincial government departments are located here",
-        "match": true
+        "match": 1.0,
+        "age": "thirties",
+        "gender": "female",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34926874.wav",
         "sentence": "the name tagged value is still kept",
         "transcript": "the name tagged value is still kept",
-        "match": true
+        "match": 1.0,
+        "age": "thirties",
+        "gender": "female",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34926878.wav",
         "sentence": "the original version was narrated entirely by will",
         "transcript": "the original version was narrated entirely by will",
-        "match": true
+        "match": 1.0,
+        "age": "twenties",
+        "gender": "male",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34926880.wav",
         "sentence": "he was descended from the banking family of frankfurt",
         "transcript": "he was descended from the banking family of frankfort",
-        "match": false
+        "match": 0.8888888888888888,
+        "age": "thirties",
+        "gender": "female",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34926883.wav",
         "sentence": "a by-election was held to replace him - the winner was linda arkley",
         "transcript": "a by-election was held to replace him the winner was linda arkley",
-        "match": false
+        "match": 1.0,
+        "age": "thirties",
+        "gender": "female",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34926889.wav",
         "sentence": "seems he numbers every letter he writes",
         "transcript": "seems he numbers every letter he writes",
-        "match": true
+        "match": 1.0,
+        "age": "thirties",
+        "gender": "female",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34926892.wav",
         "sentence": "“i forbid it” said roan",
         "transcript": "i forbid it said wrong",
-        "match": false
+        "match": 0.8,
+        "age": "thirties",
+        "gender": "female",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34926893.wav",
         "sentence": "the minaret was constructed with mughal architectural style",
         "transcript": "the minaret was constructed with mughal architectural style",
-        "match": true
+        "match": 1.0,
+        "age": "thirties",
+        "gender": "female",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34926894.wav",
         "sentence": "it is the most extensively investigated terrestrial isopod species",
         "transcript": "it is the most expensively investigated terrestrial isopod species",
-        "match": false
+        "match": 0.8888888888888888,
+        "age": "thirties",
+        "gender": "female",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34926895.wav",
         "sentence": "i dedicate more time now than ever to study",
         "transcript": "i dedicate more time now than ever to study",
-        "match": true
+        "match": 1.0,
+        "age": "thirties",
+        "gender": "female",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34926898.wav",
         "sentence": "every member in the rock band kiss guest starred in the episode as themselves",
         "transcript": "every member in the rock band kiss guest starred in the episode as themselves",
-        "match": true
+        "match": 1.0,
+        "age": "thirties",
+        "gender": "female",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34926905.wav",
         "sentence": "goldsmith then signed his first publishing deal with rondor music",
         "transcript": "goldsmith and signed his first publishing deal with rondo music",
-        "match": false
+        "match": 0.8,
+        "age": "thirties",
+        "gender": "female",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34926906.wav",
         "sentence": "instead he protested i am better than he",
         "transcript": "instead he protested i am better than he",
-        "match": true
+        "match": 1.0,
+        "age": "thirties",
+        "gender": "female",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34926907.wav",
         "sentence": "i'm sending you on a dangerous mission",
         "transcript": "i'm sending you on a dangerous mission",
-        "match": true
+        "match": 1.0,
+        "age": "thirties",
+        "gender": "female",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34926908.wav",
         "sentence": "collaborations can be set up with anyone in the world",
         "transcript": "collaborations can be set up with anyone in the world",
-        "match": true
+        "match": 1.0,
+        "age": "thirties",
+        "gender": "female",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34926909.wav",
         "sentence": "the structural consultancy of the project is being provided by archetype group of france",
         "transcript": "the structural consultancy of the project is being provided by archetype group of france",
-        "match": true
+        "match": 1.0,
+        "age": "thirties",
+        "gender": "female",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34926911.wav",
         "sentence": "while at wheaton he roomed with ian eskelin of all star united",
         "transcript": "wallet wheaton he roomed with ian escalon of all-star united",
-        "match": false
+        "match": 0.5833333333333334,
+        "age": "thirties",
+        "gender": "female",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34926912.wav",
         "sentence": "granulomas and multinucleated giant cells may be seen",
         "transcript": "granulomas and multinucleated giant cells may be seen",
-        "match": true
+        "match": 1.0,
+        "age": "thirties",
+        "gender": "female",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34926913.wav",
         "sentence": "the austrian federal railways has had two discrete periods of existence",
         "transcript": "the austrian federal railways has had two discrete periods of existence",
-        "match": true
+        "match": 1.0,
+        "age": "thirties",
+        "gender": "female",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34926914.wav",
         "sentence": "amazon stone or amazonite is a green variety of microcline",
         "transcript": "amazon stone or amazonite is a green variety of microcline",
-        "match": true
+        "match": 1.0,
+        "age": "twenties",
+        "gender": "male",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34926915.wav",
         "sentence": "the two cereals are both sweetened puffed wheat",
         "transcript": "the two cereals are both sweetened puffed wheat",
-        "match": true
+        "match": 1.0,
+        "age": "twenties",
+        "gender": "male",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34926919.wav",
         "sentence": "he also wrote new hymns",
         "transcript": "he also wrote new hymns",
-        "match": true
+        "match": 1.0,
+        "age": "thirties",
+        "gender": "female",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34926924.wav",
         "sentence": "smolensky is the nearest rural locality",
         "transcript": "smolensky is the nearest rural locality",
-        "match": true
+        "match": 1.0,
+        "age": "thirties",
+        "gender": "female",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34926926.wav",
         "sentence": "both were short-lived",
         "transcript": "both were short-lived",
-        "match": true
+        "match": 1.0,
+        "age": "thirties",
+        "gender": "female",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34926927.wav",
         "sentence": "kors' mother is jewish and his father was of swedish descent",
         "transcript": "chorus mother is jewish and his father was of swedish descent",
-        "match": false
+        "match": 0.9090909090909091,
+        "age": "thirties",
+        "gender": "female",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34926928.wav",
         "sentence": "on city council she mostly concerned herself with law and order issues",
         "transcript": "on city council she mostly concerned herself with law and order issues",
-        "match": true
+        "match": 1.0,
+        "age": "thirties",
+        "gender": "female",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34926929.wav",
         "sentence": "he replied: i have never formed or been a member of such organisations",
         "transcript": "he replied i have never formed or been a member of such organizations",
-        "match": false
+        "match": 0.9230769230769231,
+        "age": "thirties",
+        "gender": "female",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34926930.wav",
         "sentence": "actress mae marsh was his aunt",
         "transcript": "actress mae marsh was his aunt",
-        "match": true
+        "match": 1.0,
+        "age": "thirties",
+        "gender": "female",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34926931.wav",
         "sentence": "independence park stadium a tiny public baseball stadium is also close by",
         "transcript": "independence park stadium a tiny public baseball stadium is also close by",
-        "match": true
+        "match": 1.0,
+        "age": "thirties",
+        "gender": "female",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34926933.wav",
         "sentence": "he worked with former washington redskins tight end rick walker and producer chuck sapienza",
         "transcript": "he worked with former washington redskins tight end rick walker and producer chuck sapienza",
-        "match": true
+        "match": 1.0,
+        "age": "thirties",
+        "gender": "female",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34926934.wav",
         "sentence": "it is a routine way of developing new properties for new materials",
         "transcript": "it is a routine way of developing new properties for new materials",
-        "match": true
+        "match": 1.0,
+        "age": "thirties",
+        "gender": "female",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34926938.wav",
         "sentence": "he was the chairman of the association of physicians in chomutov for many years",
         "transcript": "he was the chairman of the association of physicians in trumanov for many years",
-        "match": false
+        "match": 0.9285714285714286,
+        "age": "thirties",
+        "gender": "female",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34926939.wav",
         "sentence": "its position on the river irwell has proved important in its history and development",
         "transcript": "its position on the river orwell has proved important in its history and development",
-        "match": false
+        "match": 0.9285714285714286,
+        "age": "thirties",
+        "gender": "female",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34926940.wav",
         "sentence": "the girl breaks the sack",
         "transcript": "the girl breaks the sack",
-        "match": true
+        "match": 1.0,
+        "age": "thirties",
+        "gender": "female",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34926941.wav",
         "sentence": "joe bob briggs of united press international awarded the film one star",
         "transcript": "joe bob briggs of united press international awarded the film one star",
-        "match": true
+        "match": 1.0,
+        "age": "thirties",
+        "gender": "female",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34926943.wav",
         "sentence": "the historical valuable buildings are of national interest",
         "transcript": "the historical valuable buildings are of national interest",
-        "match": true
+        "match": 1.0,
+        "age": "thirties",
+        "gender": "female",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34926945.wav",
         "sentence": "following hal's directorship john's son david lub latimer became the current director",
         "transcript": "following house leadership johnson david latimer became the current director",
-        "match": false
+        "match": 0.5833333333333334,
+        "age": "thirties",
+        "gender": "female",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34926949.wav",
         "sentence": "units of volume are the cubes of units of length",
         "transcript": "units of volume are the cubes of units of length",
-        "match": true
+        "match": 1.0,
+        "age": "thirties",
+        "gender": "female",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34926950.wav",
         "sentence": "he also went to hebrew school",
         "transcript": "he also went to hebrew school",
-        "match": true
+        "match": 1.0,
+        "age": "thirties",
+        "gender": "female",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34926952.wav",
         "sentence": "the magazine claimed that the band ignored their agreement and were misusing our mark",
         "transcript": "the magazine claimed that the band ignored their agreement and were misusing our mark",
-        "match": true
+        "match": 1.0,
+        "age": "thirties",
+        "gender": "female",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34926953.wav",
         "sentence": "janitor of lunacy was composed as a tribute to her friend brian jones",
         "transcript": "janitor of lunacy was composed as a tribute to her friend brian jones",
-        "match": true
+        "match": 1.0,
+        "age": "thirties",
+        "gender": "female",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34926954.wav",
         "sentence": "the american national exhibit showed a film version in the soviet union",
         "transcript": "the american national exhibit showed a film version in the soviet union",
-        "match": true
+        "match": 1.0,
+        "age": "thirties",
+        "gender": "female",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34926956.wav",
         "sentence": "the town and country will reacquire the property from a private investor",
         "transcript": "the town and country will reacquire the property from a private investor",
-        "match": true
+        "match": 1.0,
+        "age": "thirties",
+        "gender": "female",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34926957.wav",
         "sentence": "six days later she again put to sea",
         "transcript": "6 days later she again put to see",
-        "match": false
+        "match": 0.875,
+        "age": "thirties",
+        "gender": "female",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34926958.wav",
         "sentence": "it is the dramatic feats of seemingly inhuman flexibility that captivate audiences",
         "transcript": "it is the dramatic feats of seemingly in human flexibility that captivate audiences",
-        "match": false
+        "match": 0.9166666666666666,
+        "age": "thirties",
+        "gender": "female",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34926960.wav",
         "sentence": "the issue involved the use of the badger's athletic logo the motion w",
         "transcript": "the issue involved the use of the badgers athletic logo that motion w",
-        "match": false
+        "match": 0.9230769230769231,
+        "age": "thirties",
+        "gender": "female",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34926962.wav",
         "sentence": "law was born and raised in edinburgh and educated at edinburgh college of art",
         "transcript": "law was born and raised in edinburgh an educated at edinburgh college of art",
-        "match": false
+        "match": 0.9285714285714286,
+        "age": "thirties",
+        "gender": "female",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34926965.wav",
         "sentence": "durand gave birth to illinois' first tax-supported volunteer fire department",
         "transcript": "durand gave birth to illinois first tech supported volunteer fire department",
-        "match": false
+        "match": 0.9,
+        "age": "",
+        "gender": "",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34926968.wav",
         "sentence": "the strategic alliance continually seeks synergies and domains of mutual benefit for both organisations",
         "transcript": "the strategic alliance continually seek synergies in domains of mutual benefit for both organizations",
-        "match": false
+        "match": 0.7857142857142857,
+        "age": "teens",
+        "gender": "male",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34926972.wav",
         "sentence": "has revolted",
         "transcript": "has revolted",
-        "match": true
+        "match": 1.0,
+        "age": "teens",
+        "gender": "male",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34926974.wav",
         "sentence": "bagenal harvey resigned his command here",
         "transcript": "bagel harvey resigned his command here",
-        "match": false
+        "match": 0.8333333333333334,
+        "age": "teens",
+        "gender": "male",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34926977.wav",
         "sentence": "there she asks heidi to call her mother and make amends",
         "transcript": "there she asks heidi to call her mother and make amends",
-        "match": true
+        "match": 1.0,
+        "age": "teens",
+        "gender": "male",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34926982.wav",
         "sentence": "it is native to chile and western argentina",
         "transcript": "is native coachella and western argentina",
-        "match": false
+        "match": 0.625,
+        "age": "teens",
+        "gender": "male",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34926983.wav",
         "sentence": "jauch is known for donating a significant part of his income to charitable causes",
         "transcript": "couch is known for donating a significant part of his income to charitable causes",
-        "match": false
+        "match": 0.9285714285714286,
+        "age": "teens",
+        "gender": "male",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34926985.wav",
         "sentence": "the castle then fell into parliamentarian control in which it stayed until its demolition",
         "transcript": "fossils and fall into parliamentarian control in which it stayed until its demolition",
-        "match": false
+        "match": 0.7142857142857143,
+        "age": "teens",
+        "gender": "male",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34926993.wav",
         "sentence": "the council members are elected at large and represent the entire community",
         "transcript": "the council members are elected at large and represent the entire community",
-        "match": true
+        "match": 1.0,
+        "age": "teens",
+        "gender": "male",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34929741.wav",
         "sentence": "these shops overlook a small park and pool known as quinton pool",
         "transcript": "these shops overlook a small park and pool known as quinton pool",
-        "match": true
+        "match": 1.0,
+        "age": "twenties",
+        "gender": "female",
+        "accents": ""
     },
     {
         "file_name": "common_voice_en_34929742.wav",
         "sentence": "now what have you done with it?",
         "transcript": "now what have you done with it",
-        "match": false
+        "match": 1.0,
+        "age": "twenties",
+        "gender": "female",
+        "accents": ""
     },
     {
         "file_name": "common_voice_en_34929744.wav",
         "sentence": "that's not blues!",
         "transcript": null,
-        "match": false
+        "match": 0.0,
+        "age": "twenties",
+        "gender": "female",
+        "accents": ""
     },
     {
         "file_name": "common_voice_en_34929747.wav",
         "sentence": "shruti is heartbroken when she discovers that rishi k is gay",
         "transcript": "sushi is heartbroken when she discovers that richie k is gay",
-        "match": false
+        "match": 0.8181818181818182,
+        "age": "twenties",
+        "gender": "female",
+        "accents": ""
     },
     {
         "file_name": "common_voice_en_34929754.wav",
         "sentence": "she brings ismene together with her admirer erminio",
         "transcript": null,
-        "match": false
+        "match": 0.0,
+        "age": "twenties",
+        "gender": "female",
+        "accents": ""
     },
     {
         "file_name": "common_voice_en_34929757.wav",
         "sentence": "walter rudin proved that the continuum hypothesis implies the existence of ramsey ultrafilters",
         "transcript": "walter reed improved that the continuum hypothesis implies the existence of ramsay ultrabuilt his",
-        "match": false
+        "match": 0.6923076923076923,
+        "age": "twenties",
+        "gender": "female",
+        "accents": ""
     },
     {
         "file_name": "common_voice_en_34929758.wav",
         "sentence": "since that time the village has been growing",
         "transcript": "since that time the village has been growing",
-        "match": true
+        "match": 1.0,
+        "age": "twenties",
+        "gender": "female",
+        "accents": ""
     },
     {
         "file_name": "common_voice_en_34929766.wav",
         "sentence": "north country community college is located in north elba",
         "transcript": "north country community college is located in north elba",
-        "match": true
+        "match": 1.0,
+        "age": "twenties",
+        "gender": "female",
+        "accents": ""
     },
     {
         "file_name": "common_voice_en_34929769.wav",
         "sentence": "the song heard during gameplay depends on a number of factors",
         "transcript": "the song heard during gameplay depends on a number of factors",
-        "match": true
+        "match": 1.0,
+        "age": "twenties",
+        "gender": "female",
+        "accents": ""
     },
     {
         "file_name": "common_voice_en_34929806.wav",
         "sentence": "it is a suffragan diocese of the archdiocese of bangkok",
         "transcript": "is the suffering diocese of the archdiocese of bangkok",
-        "match": false
+        "match": 0.7,
+        "age": "twenties",
+        "gender": "female",
+        "accents": ""
     },
     {
         "file_name": "common_voice_en_34929849.wav",
         "sentence": "at first glance its outcome looks identical to the outcome of the japanese auction",
         "transcript": "at first glance its outcome looks identical to the outcome of the japanese auction",
-        "match": true
+        "match": 1.0,
+        "age": "twenties",
+        "gender": "female",
+        "accents": ""
     },
     {
         "file_name": "common_voice_en_34929850.wav",
         "sentence": "the university enjoys a friendly sporting rivalry with local universities",
         "transcript": "the university enjoys a friendly sporting rivalry with local universities",
-        "match": true
+        "match": 1.0,
+        "age": "twenties",
+        "gender": "female",
+        "accents": ""
     },
     {
         "file_name": "common_voice_en_34930834.wav",
         "sentence": "she is from tokyo",
         "transcript": "she's from target",
-        "match": false
+        "match": 0.25,
+        "age": "twenties",
+        "gender": "female",
+        "accents": ""
     },
     {
         "file_name": "common_voice_en_34930886.wav",
         "sentence": "early in the production they attempted to have him replaced",
         "transcript": "early in the production they attempted to have them replaced",
-        "match": false
+        "match": 0.9,
+        "age": "twenties",
+        "gender": "female",
+        "accents": ""
     },
     {
         "file_name": "common_voice_en_34931265.wav",
         "sentence": "he currently resides in little jackson hole wyoming",
         "transcript": "he currently resides in little jackson hole wyoming",
-        "match": true
+        "match": 1.0,
+        "age": "thirties",
+        "gender": "female",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34931280.wav",
         "sentence": "pickle lake has its own detachment of the ontario provincial police",
         "transcript": "pickle lake has its own detachment of the ontario provincial police",
-        "match": true
+        "match": 1.0,
+        "age": "thirties",
+        "gender": "female",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34931281.wav",
         "sentence": "romans practiced both with cremation generally associated with military honors",
         "transcript": "romans practice both with cremation generally associated with military honors",
-        "match": false
+        "match": 0.9,
+        "age": "thirties",
+        "gender": "female",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34931283.wav",
         "sentence": "the surrounding area is alternatively referred to as texomaland",
         "transcript": "the surrounding area is alternatively referred to as texoma land",
-        "match": false
+        "match": 0.8888888888888888,
+        "age": "thirties",
+        "gender": "female",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34931305.wav",
         "sentence": "the mart lane end of the ground has the main turnstiles",
         "transcript": "the mart lane end of the ground has the main turnstiles",
-        "match": true
+        "match": 1.0,
+        "age": "thirties",
+        "gender": "female",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34931327.wav",
         "sentence": "equally influential were his actors in adapting their performances to the new medium",
         "transcript": "equally influential where his actors in adapting their performances to the new medium",
-        "match": false
+        "match": 0.9230769230769231,
+        "age": "thirties",
+        "gender": "female",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34931329.wav",
         "sentence": "in nazi germany stieber set national socialist jubilant texts to music",
         "transcript": "in nazi germany cyber sets national socialist jubilant texts to music",
-        "match": false
+        "match": 0.8181818181818182,
+        "age": "thirties",
+        "gender": "female",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34931333.wav",
         "sentence": "miami palmetto has two publications: the newspaper the panther and the yearbook palm echo",
         "transcript": "miami palmetto has two publications the newspaper the panther and the yearbook palm echo",
-        "match": false
+        "match": 1.0,
+        "age": "thirties",
+        "gender": "female",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34931359.wav",
         "sentence": "conway and his wife manage a winery they started a few years ago",
         "transcript": "conway and his wife manage a winery they started a few years ago",
-        "match": true
+        "match": 1.0,
+        "age": "thirties",
+        "gender": "female",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34931360.wav",
         "sentence": "at the end of that season donaghy announced his retirement from club football",
         "transcript": "at the end of that season donna he announced his retirement from club football",
-        "match": false
+        "match": 0.9230769230769231,
+        "age": "thirties",
+        "gender": "female",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34931362.wav",
         "sentence": "the site of the city is unlocated",
         "transcript": "the site of the city is unlocated",
-        "match": true
+        "match": 1.0,
+        "age": "thirties",
+        "gender": "female",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34931373.wav",
         "sentence": "he is a two-time ukraine and world champion",
         "transcript": "he is a two-time ukraine and world champion",
-        "match": true
+        "match": 1.0,
+        "age": "thirties",
+        "gender": "female",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34931374.wav",
         "sentence": "it has a significant conservation area and a nature reserve of international importance",
         "transcript": "it has a significant conservation area and a nature reserve of international importance",
-        "match": true
+        "match": 1.0,
+        "age": "thirties",
+        "gender": "female",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34931376.wav",
         "sentence": "one is also on display at the national infantry museum in fort benning georgia",
         "transcript": "when is also on display at the national infantry museum in fort benning georgia",
-        "match": false
+        "match": 0.9285714285714286,
+        "age": "thirties",
+        "gender": "female",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34931377.wav",
         "sentence": "perks also heckled peterson with a bullhorn",
         "transcript": "perks also heckled peterson with a bullhorn",
-        "match": true
+        "match": 1.0,
+        "age": "thirties",
+        "gender": "female",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34931388.wav",
         "sentence": "the logo was designed by painter quamrul hassan",
         "transcript": "the logo was designed by painter cromwell hassan",
-        "match": false
+        "match": 0.875,
+        "age": "thirties",
+        "gender": "female",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34931389.wav",
         "sentence": "they are bringing together the municipal executive of the party",
         "transcript": "they are bringing together the municipal executive of the party",
-        "match": true
+        "match": 1.0,
+        "age": "thirties",
+        "gender": "female",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34931390.wav",
         "sentence": "paul's main purpose in writing is to encourage and reassure the christians there",
         "transcript": "kohl's main purpose in writing is to encourage and reassure the christians there",
-        "match": false
+        "match": 0.9230769230769231,
+        "age": "thirties",
+        "gender": "female",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34931413.wav",
         "sentence": "harris was born in worthington ohio",
         "transcript": "harris was born in worthington ohio",
-        "match": true
+        "match": 1.0,
+        "age": "thirties",
+        "gender": "female",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34931414.wav",
         "sentence": "the position was initially offered to sir oliver franks but he declined",
         "transcript": "the position was initially offered to sir oliver franks but he declined",
-        "match": true
+        "match": 1.0,
+        "age": "thirties",
+        "gender": "female",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34931418.wav",
         "sentence": "the convention codifies several bedrocks of contemporary international law",
         "transcript": "the convention codifies several bedrocks of contemporary international law",
-        "match": true
+        "match": 1.0,
+        "age": "thirties",
+        "gender": "female",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34931443.wav",
         "sentence": "it produces bright yellow flowers between july and september",
         "transcript": "it produces bright yellow flowers between july and september",
-        "match": true
+        "match": 1.0,
+        "age": "thirties",
+        "gender": "female",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34931447.wav",
         "sentence": "lower-rated stations claimed the diary method was inaccurate and biased",
         "transcript": "lower rated stations claimed the diary method was inaccurate and biased",
-        "match": false
+        "match": 0.9,
+        "age": "thirties",
+        "gender": "female",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34931458.wav",
         "sentence": "rivalry became intense among the city-states",
         "transcript": "rivalry became intense among the city-states",
-        "match": true
+        "match": 1.0,
+        "age": "thirties",
+        "gender": "female",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34931460.wav",
         "sentence": "it is awarded each year to women who have stood out for the community",
         "transcript": "it is awarded each year to women who have stood out for the community",
-        "match": true
+        "match": 1.0,
+        "age": "thirties",
+        "gender": "female",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34931461.wav",
         "sentence": "baker resigned in october and the investigation did not expand to johnson",
         "transcript": "baker resigned in october and the investigation did not expand to johnson",
-        "match": true
+        "match": 1.0,
+        "age": "thirties",
+        "gender": "female",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34931462.wav",
         "sentence": "there is another roman catholic church in the village",
         "transcript": "there is another roman catholic church in the village",
-        "match": true
+        "match": 1.0,
+        "age": "thirties",
+        "gender": "female",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34931488.wav",
         "sentence": "he began to unite other nama tribes under his control as well",
         "transcript": "he began to unite other nama tribes under his control as well",
-        "match": true
+        "match": 1.0,
+        "age": "thirties",
+        "gender": "female",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34931508.wav",
         "sentence": "it thereby extends into the cambrian",
         "transcript": "it there by extends into the cambrian",
-        "match": false
+        "match": 0.8333333333333334,
+        "age": "thirties",
+        "gender": "female",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34931510.wav",
         "sentence": "in addition to fostering diversity controlled burns have helped change landscapes",
         "transcript": "in addition to fostering diversity controlled burns have helped change landscapes",
-        "match": true
+        "match": 1.0,
+        "age": "thirties",
+        "gender": "female",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34931511.wav",
         "sentence": "whilst the markova theatre will be mainly used for music and drama performances",
         "transcript": "whilst the markova theater will be mainly used for music and drama performances",
-        "match": false
+        "match": 0.9230769230769231,
+        "age": "thirties",
+        "gender": "female",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34931527.wav",
         "sentence": "the stalls notified their friends and neighbors",
         "transcript": "the stalls notified their friends and neighbors",
-        "match": true
+        "match": 1.0,
+        "age": "thirties",
+        "gender": "female",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34931529.wav",
         "sentence": "the wellesley free library has since moved to a new building",
         "transcript": "the wellesley free library has since moved to a new building",
-        "match": true
+        "match": 1.0,
+        "age": "thirties",
+        "gender": "female",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34931530.wav",
         "sentence": "they modelled their plans on the experiment at lowell with the lowell mill girls",
         "transcript": "they modeled their plans on the experiment at lowell with the lowell mill girls",
-        "match": false
+        "match": 0.9285714285714286,
+        "age": "thirties",
+        "gender": "female",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34931577.wav",
         "sentence": "it was the only yardbirds album with all original material",
         "transcript": "it was the only yardbirds album with all original material",
-        "match": true
+        "match": 1.0,
+        "age": "thirties",
+        "gender": "female",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34931578.wav",
         "sentence": "this establishment gave jordan its first name holmes mill",
         "transcript": "disestablishment gave jordan its first name holmes mill",
-        "match": false
+        "match": 0.7777777777777778,
+        "age": "thirties",
+        "gender": "female",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34931582.wav",
         "sentence": "this was a farming community with major plantations along stage road",
         "transcript": "this was a farming community with major plantations along stage road",
-        "match": true
+        "match": 1.0,
+        "age": "thirties",
+        "gender": "female",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34931599.wav",
         "sentence": "they live and work in new york city",
         "transcript": "they live and work in new york city",
-        "match": true
+        "match": 1.0,
+        "age": "thirties",
+        "gender": "female",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34931600.wav",
         "sentence": "the tiki software association is a not-for-profit entity established in canada",
         "transcript": "the tiki software association is a not-for-profit entity established in canada",
-        "match": true
+        "match": 1.0,
+        "age": "thirties",
+        "gender": "female",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34931601.wav",
         "sentence": "see timeline of microscope technology for more information",
         "transcript": "see timeline of microscope technology for more information",
-        "match": true
+        "match": 1.0,
+        "age": "thirties",
+        "gender": "female",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34931602.wav",
         "sentence": "he was with the richmond roadrunners of the atlantic coast football league",
         "transcript": "he was with the richmond roadrunners of the atlantic coast football league",
-        "match": true
+        "match": 1.0,
+        "age": "thirties",
+        "gender": "female",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34931603.wav",
         "sentence": "bombs back together with a completely new crew",
         "transcript": "palms back together with a completely new crew",
-        "match": false
+        "match": 0.875,
+        "age": "thirties",
+        "gender": "female",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34931604.wav",
         "sentence": "it has been supportive of the new international economic order",
         "transcript": "it has been supportive of the new international economic order",
-        "match": true
+        "match": 1.0,
+        "age": "thirties",
+        "gender": "female",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34934105.wav",
         "sentence": "the director was juan cortada tirado",
         "transcript": "the director was juan cortada tirado",
-        "match": true
+        "match": 1.0,
+        "age": "",
+        "gender": "",
+        "accents": ""
     },
     {
         "file_name": "common_voice_en_34934106.wav",
         "sentence": "it did not intervene in any significant capacity for the remainder of the conflict",
         "transcript": "it did not intervene in any significant capacity for the remainder of the conflict",
-        "match": true
+        "match": 1.0,
+        "age": "",
+        "gender": "",
+        "accents": ""
     },
     {
         "file_name": "common_voice_en_34934107.wav",
         "sentence": "they might serve as multiple examples of a more general genus that is claimed",
         "transcript": "they might serve as multiple examples of a more general genius that is cleaned",
-        "match": false
+        "match": 0.8571428571428571,
+        "age": "",
+        "gender": "",
+        "accents": ""
     },
     {
         "file_name": "common_voice_en_34934203.wav",
         "sentence": "jakova is considered as one of the most important albanian composers of all times",
         "transcript": "jacoba is considered as one of the most important albanian composers of all times",
-        "match": false
+        "match": 0.9285714285714286,
+        "age": "thirties",
+        "gender": "female",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34934204.wav",
         "sentence": "while some of the proposals were completed most were not",
         "transcript": "while some of the proposals were completed most were not",
-        "match": true
+        "match": 1.0,
+        "age": "thirties",
+        "gender": "female",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34934205.wav",
         "sentence": "the california science center hosts the california state science fair annually",
         "transcript": "the california science center hosts the california state science fair annually",
-        "match": true
+        "match": 1.0,
+        "age": "thirties",
+        "gender": "female",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34934206.wav",
         "sentence": "it also granted tax exemptions to those who chose to settle in the country",
         "transcript": "it also granted tax exemptions to those who chose to settle in the country",
-        "match": true
+        "match": 1.0,
+        "age": "thirties",
+        "gender": "female",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34934248.wav",
         "sentence": "the grenade launcher is aimed using a folding leaf sight",
         "transcript": "the grenade launcher is aimed using a folding leaf sight",
-        "match": true
+        "match": 1.0,
+        "age": "thirties",
+        "gender": "female",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34934249.wav",
         "sentence": "every year in the spring elections are held for next year's staff",
         "transcript": "every year in the spring elections are held for next year's staff",
-        "match": true
+        "match": 1.0,
+        "age": "thirties",
+        "gender": "female",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34934250.wav",
         "sentence": "the new names met considerable protest from some quarters",
         "transcript": "the new names met considerable protests from some quarters",
-        "match": false
+        "match": 0.8888888888888888,
+        "age": "thirties",
+        "gender": "female",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34934251.wav",
         "sentence": "the area is heavily populated by the amish and mennonites",
         "transcript": "the area is heavily populated by the amish and mennonites",
-        "match": true
+        "match": 1.0,
+        "age": "thirties",
+        "gender": "female",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34934702.wav",
         "sentence": "twelve other women were listed as charter members",
         "transcript": "travel older woman who are listed as charter members",
-        "match": false
+        "match": 0.5,
+        "age": "",
+        "gender": "",
+        "accents": "Brazilian"
     },
     {
         "file_name": "common_voice_en_34934876.wav",
         "sentence": "his cousin and mother thanked the emir for his help in securing his repatriation",
         "transcript": "has cousin on motorola turn the emir for his health and security the patriotism",
-        "match": false
+        "match": 0.42857142857142855,
+        "age": "",
+        "gender": "",
+        "accents": "India and South Asia (India, Pakistan, Sri Lanka)"
     },
     {
         "file_name": "common_voice_en_34934929.wav",
         "sentence": "tiriel mora joined the second season",
         "transcript": "terrell moura joins the second season",
-        "match": false
+        "match": 0.5,
+        "age": "",
+        "gender": "",
+        "accents": "England English"
     },
     {
         "file_name": "common_voice_en_34934933.wav",
         "sentence": "he taught as an associate professor at china medical college",
         "transcript": "he taught as an associate professor at china medical college",
-        "match": true
+        "match": 1.0,
+        "age": "",
+        "gender": "",
+        "accents": "England English"
     },
     {
         "file_name": "common_voice_en_34934937.wav",
         "sentence": "they were responsible for the ceremonies and the administration of the order",
         "transcript": "they were responsible for the ceremonies and the administration of the order",
-        "match": true
+        "match": 1.0,
+        "age": "",
+        "gender": "",
+        "accents": "England English"
     },
     {
         "file_name": "common_voice_en_34935133.wav",
         "sentence": "there are many variations of how interior shutters can be configured in a recess",
         "transcript": "there are many variations of how interior shutters can be configured in a recess",
-        "match": true
+        "match": 1.0,
+        "age": "fifties",
+        "gender": "female",
+        "accents": "England English"
     },
     {
         "file_name": "common_voice_en_34935135.wav",
         "sentence": "the comic was based on the novel character bob morane",
         "transcript": "the comic was based on the novel character bob moran",
-        "match": false
+        "match": 0.9,
+        "age": "fifties",
+        "gender": "female",
+        "accents": "England English"
     },
     {
         "file_name": "common_voice_en_34935138.wav",
         "sentence": "sanyal was suffering from old-age related cardio pulmonary ailments",
         "transcript": "samuel was suffering from old age-related cardiopulmonary ailments",
-        "match": false
+        "match": 0.4444444444444444,
+        "age": "fifties",
+        "gender": "female",
+        "accents": "England English"
     },
     {
         "file_name": "common_voice_en_34935187.wav",
         "sentence": "the entire issue was allegedly banned from publishing in yugoslavia",
         "transcript": "the entire issue was allegedly banned from publication in yugoslavia",
-        "match": false
+        "match": 0.9,
+        "age": "fifties",
+        "gender": "female",
+        "accents": "England English"
     },
     {
         "file_name": "common_voice_en_34935190.wav",
         "sentence": "hence these sequences and the information they carry may get lost",
         "transcript": "hence the sequences in the information they carry may get lost",
-        "match": false
+        "match": 0.8181818181818182,
+        "age": "fifties",
+        "gender": "female",
+        "accents": "England English"
     },
     {
         "file_name": "common_voice_en_34935192.wav",
         "sentence": "it is located west of the city center",
         "transcript": "it is located west of the city center",
-        "match": true
+        "match": 1.0,
+        "age": "fifties",
+        "gender": "female",
+        "accents": "England English"
     },
     {
         "file_name": "common_voice_en_34935775.wav",
         "sentence": "rita almost went insane she was so angry",
         "transcript": "rita almost one insane she was so angry",
-        "match": false
+        "match": 0.875,
+        "age": "thirties",
+        "gender": "male",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34935776.wav",
         "sentence": "schenk is sometimes appended to his name",
         "transcript": "shrink is sometimes appended to his name",
-        "match": false
+        "match": 0.8571428571428571,
+        "age": "thirties",
+        "gender": "male",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34935777.wav",
         "sentence": "rocca was born in almenno san bartolomeo bergamo",
         "transcript": "brooke i was born in alameda san bartolomeo bergamo",
-        "match": false
+        "match": 0.75,
+        "age": "thirties",
+        "gender": "male",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34935802.wav",
         "sentence": "tumblr erroneously removed the entire post which included commentary",
         "transcript": "tumblr erroneously removed the entire post which included commentary",
-        "match": true
+        "match": 1.0,
+        "age": "thirties",
+        "gender": "male",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34935803.wav",
         "sentence": "the vale ward of rhoose lies to the west",
         "transcript": "the veil ward of ruse lies to the west",
-        "match": false
+        "match": 0.7777777777777778,
+        "age": "thirties",
+        "gender": "male",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34935804.wav",
         "sentence": "cooke was the last person to be hanged in the state of western australia",
         "transcript": "cook was the last person to be hanged in the state of western australia",
-        "match": false
+        "match": 0.9285714285714286,
+        "age": "thirties",
+        "gender": "male",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34936385.wav",
         "sentence": "websites are so weird aren't they?",
         "transcript": "websites are so weird aren't they",
-        "match": false
+        "match": 1.0,
+        "age": "",
+        "gender": "",
+        "accents": "Caribbean Canadian"
     },
     {
         "file_name": "common_voice_en_34936387.wav",
         "sentence": "architectural project manager are project managers in the field of architecture",
         "transcript": "architectural project manager our project managers in the field of architecture",
-        "match": false
+        "match": 0.9090909090909091,
+        "age": "",
+        "gender": "",
+        "accents": "Caribbean Canadian"
     },
     {
         "file_name": "common_voice_en_34936389.wav",
         "sentence": "epsilon pegasi also known as enif marks the horse's muzzle",
         "transcript": "epsilon pegassi also known as enoch marks the horse's muzzle",
-        "match": false
+        "match": 0.8,
+        "age": "",
+        "gender": "",
+        "accents": "Caribbean Canadian"
     },
     {
         "file_name": "common_voice_en_34936441.wav",
         "sentence": "renae tostenson is the superintendent of schools",
         "transcript": "renee thompson is a superintendent of schools",
-        "match": false
+        "match": 0.5714285714285714,
+        "age": "",
+        "gender": "",
+        "accents": "Caribbean Canadian"
     },
     {
         "file_name": "common_voice_en_34936444.wav",
         "sentence": "the dukes of upper bavaria served also as counts palatinate of the rhine",
         "transcript": "the dukes of upper bavaria served also as khan's palatinate of the rhine",
-        "match": false
+        "match": 0.9230769230769231,
+        "age": "",
+        "gender": "",
+        "accents": "Caribbean Canadian"
     },
     {
         "file_name": "common_voice_en_34936455.wav",
         "sentence": "amy follows them",
         "transcript": "amy follows them",
-        "match": true
+        "match": 1.0,
+        "age": "fourties",
+        "gender": "male",
+        "accents": "Caribbean Canadian"
     },
     {
         "file_name": "common_voice_en_34936456.wav",
         "sentence": "an attic talent of silver was the value of nine man-years of skilled work",
         "transcript": "an attic talent of silver was the value of 99 years of skilled work",
-        "match": false
+        "match": 0.8571428571428571,
+        "age": "fourties",
+        "gender": "male",
+        "accents": "Caribbean Canadian"
     },
     {
         "file_name": "common_voice_en_34936457.wav",
         "sentence": "she was buried in st gabriel’s cemetery",
         "transcript": "she was buried in saint gabriel's cemetery",
-        "match": false
+        "match": 0.8571428571428571,
+        "age": "fourties",
+        "gender": "male",
+        "accents": "Caribbean Canadian"
     },
     {
         "file_name": "common_voice_en_34936458.wav",
         "sentence": "in this way dulcinea is an entirely fictional person for whom quixote relentlessly fights",
         "transcript": "in this way dosinia is an entirely fictional person for whom the hotel relentlessly fights",
-        "match": false
+        "match": 0.8571428571428571,
+        "age": "fourties",
+        "gender": "male",
+        "accents": "Caribbean Canadian"
     },
     {
         "file_name": "common_voice_en_34936459.wav",
         "sentence": "whether this sort of system is present on earth is still open to debate",
         "transcript": "whether this sort of system is present on earth is still open to debate",
-        "match": true
+        "match": 1.0,
+        "age": "fourties",
+        "gender": "male",
+        "accents": "Caribbean Canadian"
     },
     {
         "file_name": "common_voice_en_34936481.wav",
         "sentence": "originally the site belonged to internet life consumer group a consulting firm",
         "transcript": "originally the site belong to the internet life consumer group of consulting firm",
-        "match": false
+        "match": 0.8333333333333334,
+        "age": "fourties",
+        "gender": "male",
+        "accents": "Caribbean Canadian"
     },
     {
         "file_name": "common_voice_en_34936482.wav",
         "sentence": "and so the argument continues",
         "transcript": "and so the argument continues",
-        "match": true
+        "match": 1.0,
+        "age": "fourties",
+        "gender": "male",
+        "accents": "Caribbean Canadian"
     },
     {
         "file_name": "common_voice_en_34936483.wav",
         "sentence": "the special effects were produced by republic's lydecker brothers",
         "transcript": "the special effects for produced by republic's light occur brothers",
-        "match": false
+        "match": 0.7777777777777778,
+        "age": "fourties",
+        "gender": "male",
+        "accents": "Caribbean Canadian"
     },
     {
         "file_name": "common_voice_en_34936827.wav",
         "sentence": "this corridor has consisted of rivers and plateaus",
         "transcript": "this corridor has consisted of rivers and plateaus",
-        "match": true
+        "match": 1.0,
+        "age": "",
+        "gender": "",
+        "accents": ""
     },
     {
         "file_name": "common_voice_en_34936831.wav",
         "sentence": "lakemoor's police department consists of six sworn officers",
         "transcript": "lake worth police department consists of 6 warren offices",
-        "match": false
+        "match": 0.625,
+        "age": "",
+        "gender": "",
+        "accents": ""
     },
     {
         "file_name": "common_voice_en_34936835.wav",
         "sentence": "the mustinka river flows into the lake just above the dam",
         "transcript": "the mystica river flows into the lake just above the damn",
-        "match": false
+        "match": 0.8181818181818182,
+        "age": "",
+        "gender": "",
+        "accents": ""
     },
     {
         "file_name": "common_voice_en_34936848.wav",
         "sentence": "alex templeton is interred at putnam cemetery in greenwich",
         "transcript": "alex templeton is interred at putnam cemetery in greenwich",
-        "match": true
+        "match": 1.0,
+        "age": "fifties",
+        "gender": "female",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34936953.wav",
         "sentence": "it was built for the purpose of transmitting the radio station budapest one",
         "transcript": "it was built for the purpose of transmitting the radio station with the first one",
-        "match": false
+        "match": 0.9230769230769231,
+        "age": "",
+        "gender": "",
+        "accents": ""
     },
     {
         "file_name": "common_voice_en_34937062.wav",
         "sentence": "soon thereafter however he was forced into exile",
         "transcript": "song that stuff however he was supposed to say",
-        "match": false
+        "match": 0.375,
+        "age": "",
+        "gender": "",
+        "accents": ""
     },
     {
         "file_name": "common_voice_en_34938755.wav",
         "sentence": "the city was also close to surrender",
         "transcript": null,
-        "match": false
+        "match": 0.0,
+        "age": "fourties",
+        "gender": "male",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34938756.wav",
         "sentence": "the next day his army is defeated as prophesied and saul commits suicide",
         "transcript": "commits suicide",
-        "match": false
+        "match": 0.15384615384615385,
+        "age": "fourties",
+        "gender": "male",
+        "accents": "United States English"
     },
     {
         "file_name": "common_voice_en_34939318.wav",
         "sentence": "born in treia lanzi was educated as a priest",
         "transcript": "born in prayer nancy was educated as a priest",
-        "match": false
+        "match": 0.7777777777777778,
+        "age": "fifties",
+        "gender": "male",
+        "accents": "German English,Non native speaker"
     },
     {
         "file_name": "common_voice_en_34939335.wav",
         "sentence": "a consistent theme of her research has been the interaction of children with computers",
         "transcript": "consistent theme of a research has been the interaction of children with computers",
-        "match": false
+        "match": 0.9285714285714286,
+        "age": "fifties",
+        "gender": "male",
+        "accents": "German English,Non native speaker"
     },
     {
         "file_name": "common_voice_en_34939336.wav",
         "sentence": "these two lines describe the rules that define the ancestor relationship",
         "transcript": "police two lines describe the rules that define the answers to our relationship",
-        "match": false
+        "match": 0.8181818181818182,
+        "age": "fifties",
+        "gender": "male",
+        "accents": "German English,Non native speaker"
     },
     {
         "file_name": "common_voice_en_34939339.wav",
         "sentence": "examples of primary alcohols include ethanol and butanol",
         "transcript": "examples of primary alcohols include ethanol and butanol",
-        "match": true
+        "match": 1.0,
+        "age": "fifties",
+        "gender": "male",
+        "accents": "German English,Non native speaker"
     },
     {
         "file_name": "common_voice_en_34939345.wav",
         "sentence": "the content at the top of a wikipedia page depends on this information",
         "transcript": "content of the top of a wikipedia page depends on this information",
-        "match": false
+        "match": 0.8461538461538461,
+        "age": "fifties",
+        "gender": "male",
+        "accents": "German English,Non native speaker"
     },
     {
         "file_name": "common_voice_en_34939383.wav",
         "sentence": "his civil engineer for the project was george heald",
         "transcript": "the civil engineer for the project was george hill",
-        "match": false
+        "match": 0.7777777777777778,
+        "age": "fifties",
+        "gender": "male",
+        "accents": "German English,Non native speaker"
     },
     {
         "file_name": "common_voice_en_34939405.wav",
         "sentence": "it was the result of bitter experience",
         "transcript": "it was a result of bitter experience",
-        "match": false
+        "match": 0.8571428571428571,
+        "age": "fifties",
+        "gender": "male",
+        "accents": "German English,Non native speaker"
     },
     {
         "file_name": "common_voice_en_34939409.wav",
         "sentence": "she was buried at the forest lawn memorial park in hollywood hills",
         "transcript": "she was buried at the forest lawn memorial park in hollywood hills",
-        "match": true
+        "match": 1.0,
+        "age": "fifties",
+        "gender": "male",
+        "accents": "German English,Non native speaker"
     },
     {
         "file_name": "common_voice_en_34939432.wav",
         "sentence": "a magsafe cable runs from the back of the display for charging notebooks",
         "transcript": "omak safe cable runs from the back of the display for charging notebooks",
-        "match": false
+        "match": 0.8461538461538461,
+        "age": "fifties",
+        "gender": "male",
+        "accents": "German English,Non native speaker"
     },
     {
         "file_name": "common_voice_en_34939470.wav",
         "sentence": "he later died in the village",
         "transcript": "he later died in the village",
-        "match": true
+        "match": 1.0,
+        "age": "fifties",
+        "gender": "male",
+        "accents": "German English,Non native speaker"
     },
     {
         "file_name": "common_voice_en_34939489.wav",
         "sentence": "the progressives initially served in opposition",
         "transcript": "what progressives initially served in opposition",
-        "match": false
+        "match": 0.8333333333333334,
+        "age": "fifties",
+        "gender": "male",
+        "accents": "German English,Non native speaker"
     },
     {
         "file_name": "common_voice_en_34939490.wav",
         "sentence": "such skeletons may be internal as in vertebrates or external like in arthropods",
         "transcript": "search skeletons may be internal as in vertebrates or external light in afro parts",
-        "match": false
+        "match": 0.7692307692307693,
+        "age": "fifties",
+        "gender": "male",
+        "accents": "German English,Non native speaker"
     },
     {
         "file_name": "common_voice_en_34939498.wav",
         "sentence": "there are two hotels in the town center",
         "transcript": "there are two hotels in the town center",
-        "match": true
+        "match": 1.0,
+        "age": "fifties",
+        "gender": "male",
+        "accents": "German English,Non native speaker"
     },
     {
         "file_name": "common_voice_en_34939502.wav",
         "sentence": "it was based in boden garrison in boden",
         "transcript": "it was based in borden garrison in bowdon",
-        "match": false
+        "match": 0.75,
+        "age": "fifties",
+        "gender": "male",
+        "accents": "German English,Non native speaker"
     },
     {
         "file_name": "common_voice_en_34939525.wav",
         "sentence": "he matriculated at the national university of rwanda",
         "transcript": "geometric related at the national university of 1",
-        "match": false
+        "match": 0.625,
+        "age": "fifties",
+        "gender": "male",
+        "accents": "German English,Non native speaker"
     },
     {
         "file_name": "common_voice_en_34939540.wav",
         "sentence": "raphew attended southern university laboratory school where he lettered in football track and band",
         "transcript": "i love you attendance southern university laboratory school where he let out in football track and band",
-        "match": false
+        "match": 0.7857142857142857,
+        "age": "fifties",
+        "gender": "male",
+        "accents": "German English,Non native speaker"
     },
     {
         "file_name": "common_voice_en_34939541.wav",
         "sentence": "he was accompanied by his mother ann lian for the show",
         "transcript": "he was accompanied by his mother and liam for the show",
-        "match": false
+        "match": 0.8181818181818182,
+        "age": "fifties",
+        "gender": "male",
+        "accents": "German English,Non native speaker"
     },
     {
         "file_name": "common_voice_en_34939542.wav",
         "sentence": "for software testing the certifications can be grouped into exam-based and education-based",
         "transcript": "for software testing the certifications can be grouped into exam based and education based",
-        "match": false
+        "match": 0.8333333333333334,
+        "age": "fifties",
+        "gender": "male",
+        "accents": "German English,Non native speaker"
     },
     {
         "file_name": "common_voice_en_34939563.wav",
         "sentence": "throughout his career he published important theoretical essays and books on art",
         "transcript": "throughout his career he published important theoretical face and books on art",
-        "match": false
+        "match": 0.9166666666666666,
+        "age": "fifties",
+        "gender": "male",
+        "accents": "German English,Non native speaker"
     },
     {
         "file_name": "common_voice_en_34939586.wav",
         "sentence": "witnesses said that bironas had been driving aggressively prior to the crash",
         "transcript": "witnesses said that byron has been driving aggressively prior to the crash",
-        "match": false
+        "match": 0.8333333333333334,
+        "age": "fifties",
+        "gender": "male",
+        "accents": "German English,Non native speaker"
     },
     {
         "file_name": "common_voice_en_34939598.wav",
         "sentence": "this area is best fished for southern black bream",
         "transcript": "this area is best fish for salmon black green",
-        "match": false
+        "match": 0.6666666666666666,
+        "age": "fifties",
+        "gender": "male",
+        "accents": "German English,Non native speaker"
     },
     {
         "file_name": "common_voice_en_34939617.wav",
         "sentence": "these modes are usually excited by a subwavelength grating",
         "transcript": "these molds are usually excited by a subway length rating",
-        "match": false
+        "match": 0.6666666666666666,
+        "age": "fifties",
+        "gender": "male",
+        "accents": "German English,Non native speaker"
     },
     {
         "file_name": "common_voice_en_34939631.wav",
         "sentence": "there is no cost to participate in this study",
         "transcript": "there is no cost to participate in this study",
-        "match": true
+        "match": 1.0,
+        "age": "fifties",
+        "gender": "male",
+        "accents": "German English,Non native speaker"
     },
     {
         "file_name": "common_voice_en_34939644.wav",
         "sentence": "catenary poles are spaced every to support the overhead electrical lines",
         "transcript": "veterinary polls are spaced every to support the overhead electrical lines",
-        "match": false
+        "match": 0.8181818181818182,
+        "age": "fifties",
+        "gender": "male",
+        "accents": "German English,Non native speaker"
     },
     {
         "file_name": "common_voice_en_34939647.wav",
         "sentence": "property used in such a manner as to make money",
         "transcript": "property used in such a manner as to make money",
-        "match": true
+        "match": 1.0,
+        "age": "fifties",
+        "gender": "male",
+        "accents": "German English,Non native speaker"
     },
     {
         "file_name": "common_voice_en_34939674.wav",
         "sentence": "the summit rises to above mean sea level",
         "transcript": "the summit rises to above mean sea level",
-        "match": true
+        "match": 1.0,
+        "age": "fifties",
+        "gender": "male",
+        "accents": "German English,Non native speaker"
+    },
+    {
+        "average_match": 0.9160055983443081
     }
 ]
