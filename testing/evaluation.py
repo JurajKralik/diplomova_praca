@@ -16,7 +16,7 @@ input_path = filedialog.askopenfile()
 if not input_path:
     print("No input file selected.")
     exit()
-sentence = get_sentence_for_file(input_path.name, 'common_voice_en_41910507.mp3')
+sentence = get_sentence_for_file(input_path.name, 'common_voice_en_35244283.mp3')
 if sentence:
     print(sentence)
 else:

@@ -78,6 +78,7 @@ def transcribe():
             end_time = time.time()
             elapsed_time = end_time - start_time
             save_transcription(output_dir, file_name, transcript, elapsed_time)
+            print(f"Transcription for {file_name} completed in {elapsed_time:.2f} seconds.")
         else:
             print(f"File {file_name} is not a valid audio file.")
             continue
