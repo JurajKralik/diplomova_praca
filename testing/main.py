@@ -14,7 +14,10 @@ def select_folder():
     if new_path:
         folder_path.set(new_path)
 
-def save_transcription(output_path: str, file_name: str, transcript: str, elapsed_time: float):
+
+def save_transcription(
+    output_path: str, file_name: str, transcript: str, elapsed_time: float
+):
     """Saves transcription output to a JSON file with a unique serial number."""
     if not os.path.exists(output_path):
         with open(output_path, "w", encoding="utf-8") as json_file:
@@ -25,12 +28,13 @@ def save_transcription(output_path: str, file_name: str, transcript: str, elapse
         result_entry = {
             "file_name": file_name,
             "transcript": transcript,
-            "elapsed_time": elapsed_time
+            "elapsed_time": elapsed_time,
         }
         data["results"].append(result_entry)
         json_file.seek(0)
         json.dump(data, json_file, ensure_ascii=False, indent=4)
         json_file.truncate()
+
 
 def transcribe_file(model_choice, audio_path, file_name):
     if model_choice == "Speech Recognition":
@@ -48,15 +52,16 @@ def transcribe_file(model_choice, audio_path, file_name):
     return {
         "file_name": file_name,
         "transcript": transcript,
-        "elapsed_time": elapsed_time
+        "elapsed_time": elapsed_time,
     }
+
 
 def transcribe():
     audio_folder = folder_path.get()
     if not audio_folder:
         result_text.set("Please select an audio folder.")
         return
-    
+
     output_dir = "testing/output/output.json"
     serial_number = 1
     while os.path.exists(output_dir):
@@ -67,15 +72,20 @@ def transcribe():
     print(f"Output will be saved to: {output_dir}")
     model_choice = model_var.get()
 
-    output = {"model": model_choice, "results": []}
+    output = {
+        "model": model_choice,
+        "parallel_processes": process_var.get(),
+        "results": [],
+    }
     with open(output_dir, "w", encoding="utf-8") as json_file:
         json.dump(output, json_file, ensure_ascii=False, indent=4)
 
     total_time_start = time.time()
 
     audio_files = [
-        file_name for file_name in os.listdir(audio_folder)
-        if file_name.lower().endswith(('.wav', '.mp3', '.flac'))
+        file_name
+        for file_name in os.listdir(audio_folder)
+        if file_name.lower().endswith((".wav", ".mp3", ".flac"))
     ]
     folder_size = len(audio_files)
 
@@ -84,12 +94,21 @@ def transcribe():
     with ProcessPoolExecutor(max_workers=process_var.get()) as executor:
         for file_name in audio_files:
             full_path = os.path.join(audio_folder, file_name)
-            futures.append(executor.submit(transcribe_file, model_choice, full_path, file_name))
+            futures.append(
+                executor.submit(transcribe_file, model_choice, full_path, file_name)
+            )
 
         for idx, future in enumerate(as_completed(futures), 1):
             result_entry = future.result()
-            save_transcription(output_dir, result_entry["file_name"], result_entry["transcript"], result_entry["elapsed_time"])
-            print(f"({idx}/{folder_size}) {result_entry['file_name']} done in {result_entry['elapsed_time']:.2f}s")
+            save_transcription(
+                output_dir,
+                result_entry["file_name"],
+                result_entry["transcript"],
+                result_entry["elapsed_time"],
+            )
+            print(
+                f"({idx}/{folder_size}) {result_entry['file_name']} done in {result_entry['elapsed_time']:.2f}s"
+            )
 
     total_time_taken = time.time() - total_time_start
     with open(output_dir, "r+", encoding="utf-8") as json_file:
@@ -100,6 +119,7 @@ def transcribe():
         json_file.truncate()
 
     print(f"Done! Total time taken: {total_time_taken:.2f} seconds")
+
 
 if __name__ == "__main__":
     root = tk.Tk()
@@ -117,10 +137,10 @@ if __name__ == "__main__":
     folder_label = tk.Label(root, textvariable=folder_path, wraplength=500)
     folder_label.pack(pady=5)
     # Parallel processes selection
-    process_frame = tk.LabelFrame(root, text="Parallel Processes")
+    process_frame = tk.LabelFrame(root, text="Parallel")
     process_frame.pack(pady=10)
 
-    max_cores = os.cpu_count()
+    max_cores = 61
     process_var = tk.IntVar(value=max_cores)
 
     tk.Scale(
@@ -129,14 +149,16 @@ if __name__ == "__main__":
         to=max_cores,
         orient="horizontal",
         variable=process_var,
-        label="Number of Processes"
+        label="Number of Processes",
     ).pack()
     # Model selection
     model_frame = tk.LabelFrame(root, text="Select Model")
     model_frame.pack(pady=10)
 
     for model in ["Speech Recognition", "Whisper", "Wav2Vec"]:
-        tk.Radiobutton(model_frame, text=model, variable=model_var, value=model).pack(anchor="w")
+        tk.Radiobutton(model_frame, text=model, variable=model_var, value=model).pack(
+            anchor="w"
+        )
 
     # Transcribe button
     transcribe_button = tk.Button(root, text="Transcribe", command=transcribe)

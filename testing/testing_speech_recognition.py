@@ -14,7 +14,6 @@ class SpeechRecognitionModel:
                 # Cannot understand the audio - too noisy or unclear
                 text = None
             else:
-                text: str = self.recognizer.recognize_google(audio)
-                text = text.lower()
+                text = None
             
             return text
