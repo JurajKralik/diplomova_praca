@@ -45,45 +45,26 @@ def get_additional_info_for_file(tsv_path, target_filename):
 				}
 	return {"age": None, "gender": None, "accents": None}
 
-def main():
-	validated_tsv, result_json, output_json_path = get_file_paths()
-
-	results = get_results(result_json)
-	evaluation = []
-
-	for result in results:
-		evaluated = compare_result(validated_tsv, result)
-		evaluation.append(evaluated)
-		mp3_file_name = result["file_name"].replace(".wav", ".mp3")
-		additional_info = get_additional_info_for_file(validated_tsv.name, mp3_file_name)
-		evaluated.update(additional_info)
-
-	average_match = sum(item["match"] for item in evaluation if "match" in item) / len(evaluation) if evaluation else 0.0
-	evaluation.append({"average_match": average_match})
-	with open(output_json_path, "w", encoding="utf-8") as outfile:
-		json.dump(evaluation, outfile, ensure_ascii=False, indent=4)
-
-	print(f"Evaluation results saved to {output_json_path}")
-
-
 def get_file_paths() -> tuple:
-    validated_tsv = filedialog.askopenfile()
-    if not validated_tsv:
-        print("No input file selected.")
-        exit()
+	print("Please select the validated TSV file:")
+	validated_tsv = filedialog.askopenfile()
+	if not validated_tsv:
+		print("No input file selected.")
+		exit()
 
-    result_json = filedialog.askopenfile()
-    if not result_json:
-        print("No output file selected.")
-        exit()
+	print("Please select the result JSON file:")
+	result_json = filedialog.askopenfile()
+	if not result_json:
+		print("No output file selected.")
+		exit()
 
-    output_folder = os.path.join(os.path.dirname(__file__), "output")
-    os.makedirs(output_folder, exist_ok=True)
+	output_folder = os.path.join(os.path.dirname(__file__), "output")
+	os.makedirs(output_folder, exist_ok=True)
 
-    result_json_name = os.path.basename(result_json.name)
-    output_json_path = os.path.join(output_folder, f"evaluated_{result_json_name}")
+	result_json_name = os.path.basename(result_json.name)
+	output_json_path = os.path.join(output_folder, f"evaluated_{result_json_name}")
 
-    return validated_tsv, result_json, output_json_path
+	return validated_tsv, result_json, output_json_path
 
 
 def get_results(result_json):
@@ -146,4 +127,23 @@ def normalize_text(text):
 
 	return normalized
 
-main()
+
+if __name__ == "__main__":
+	validated_tsv, result_json, output_json_path = get_file_paths()
+
+	results = get_results(result_json)
+	evaluation = []
+
+	for result in results:
+		evaluated = compare_result(validated_tsv, result)
+		evaluation.append(evaluated)
+		mp3_file_name = result["file_name"].replace(".wav", ".mp3")
+		additional_info = get_additional_info_for_file(validated_tsv.name, mp3_file_name)
+		evaluated.update(additional_info)
+
+	average_match = sum(item["match"] for item in evaluation if "match" in item) / len(evaluation) if evaluation else 0.0
+	evaluation.append({"average_match": average_match})
+	with open(output_json_path, "w", encoding="utf-8") as outfile:
+		json.dump(evaluation, outfile, ensure_ascii=False, indent=4)
+
+	print(f"Evaluation results saved to {output_json_path}")
