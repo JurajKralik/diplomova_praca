@@ -28,7 +28,7 @@ def save_transcription(
         result_entry = {
             "file_name": file_name,
             "transcript": transcript,
-            "elapsed_time": elapsed_time,
+            "time_taken": elapsed_time,
         }
         data["results"].append(result_entry)
         json_file.seek(0)
@@ -37,12 +37,16 @@ def save_transcription(
 
 
 def transcribe_file(model_choice, audio_path, file_name):
-    if model_choice == "Speech Recognition":
-        model = SpeechRecognitionModel()
+    if model_choice == "Google":
+        model = SpeechRecognitionModel(model="google")
     elif model_choice == "Whisper":
+        model = SpeechRecognitionModel(model="whisper")
+    elif model_choice == "Whisper_openai":
         model = WhisperModel()
-    elif model_choice == "Wav2Vec":
-        model = Wav2Vec2Model()
+    elif model_choice == "Wav2Vec_large":
+        model = Wav2Vec2Model(model_variant="large")
+    elif model_choice == "Wav2Vec_base":
+        model = Wav2Vec2Model(model_variant="base")
     else:
         raise ValueError("Invalid model choice.")
 
@@ -52,7 +56,7 @@ def transcribe_file(model_choice, audio_path, file_name):
     return {
         "file_name": file_name,
         "transcript": transcript,
-        "elapsed_time": elapsed_time,
+        "time_taken": elapsed_time,
     }
 
 
@@ -104,10 +108,10 @@ def transcribe():
                 output_dir,
                 result_entry["file_name"],
                 result_entry["transcript"],
-                result_entry["elapsed_time"],
+                result_entry["time_taken"],
             )
             print(
-                f"({idx}/{folder_size}) {result_entry['file_name']} done in {result_entry['elapsed_time']:.2f}s"
+                f"({idx}/{folder_size}) {result_entry['file_name']} done in {result_entry['time_taken']:.2f}s"
             )
 
     total_time_taken = time.time() - total_time_start
@@ -129,39 +133,46 @@ if __name__ == "__main__":
     folder_path = tk.StringVar()
     model_var = tk.StringVar(value="Model 1")
     result_text = tk.StringVar()
+    padding_x = 25
 
     # File selection button
     folder_button = tk.Button(root, text="Select Folder", command=select_folder)
     folder_button.pack(pady=10)
+    folder_button.config(width=int(padding_x/2))
 
     folder_label = tk.Label(root, textvariable=folder_path, wraplength=500)
     folder_label.pack(pady=5)
-    # Parallel processes selection
-    process_frame = tk.LabelFrame(root, text="Parallel")
-    process_frame.pack(pady=10)
+    folder_label.config(width=50)
 
-    max_cores = 61
-    process_var = tk.IntVar(value=max_cores)
-
-    tk.Scale(
-        process_frame,
-        from_=1,
-        to=max_cores,
-        orient="horizontal",
-        variable=process_var,
-        label="Number of Processes",
-    ).pack()
     # Model selection
     model_frame = tk.LabelFrame(root, text="Select Model")
     model_frame.pack(pady=10)
+    model_frame.config(padx=padding_x)
 
-    for model in ["Speech Recognition", "Whisper", "Wav2Vec"]:
+    for model in ["Google", "Whisper", "Whisper_openai", "Wav2Vec_base", "Wav2Vec_large"]:
         tk.Radiobutton(model_frame, text=model, variable=model_var, value=model).pack(
             anchor="w"
         )
 
+    # Parallel processes selection
+    process_frame = tk.LabelFrame(root, text="Parallel")
+    process_frame.pack(pady=10)
+    process_frame.config(padx=padding_x)
+
+    max_processes = 61
+    process_var = tk.IntVar(value=1)
+    tk.Scale(
+        process_frame,
+        from_=1,
+        to=max_processes,
+        orient="horizontal",
+        variable=process_var,
+        label="Processes",
+    ).pack()
+    
     # Transcribe button
     transcribe_button = tk.Button(root, text="Transcribe", command=transcribe)
     transcribe_button.pack(pady=10)
+    transcribe_button.config(width=int(padding_x/2))
 
     root.mainloop()
