@@ -1,9 +1,7 @@
 import csv
 import json
 import os
-import re
 from tkinter import filedialog
-from word2number import w2n
 from jiwer import wer, cer, Compose, ToLowerCase, RemovePunctuation, RemoveMultipleSpaces, Strip
 
 SUBSTITUTIONS = {
@@ -17,7 +15,6 @@ SUBSTITUTIONS = {
 	"¢": "cent",
 }
 
-# Jiwer transform na normalizáciu textov
 transform = Compose([
     ToLowerCase(),
     RemovePunctuation(),
@@ -88,6 +85,7 @@ def compare_result(validated_tsv, result) -> dict:
 	mp3_file_name = file_name.replace(".wav", ".mp3")
 	sentence = get_sentence_for_file(validated_tsv.name, mp3_file_name)
 	transcript = result.get("transcript", "")
+	inference_time = result.get("time_taken", None)  # <- pridáme time_taken
 	
 	if sentence is None or transcript is None:
 		print(f"Evaluating file: {file_name} - Missing reference or transcription.")
@@ -95,6 +93,7 @@ def compare_result(validated_tsv, result) -> dict:
 			"file_name": file_name,
 			"sentence": sentence,
 			"transcript": transcript,
+			"inference_time": inference_time,
 			"WER": None,
 			"CER": None
 		}
@@ -111,6 +110,7 @@ def compare_result(validated_tsv, result) -> dict:
 			"file_name": file_name,
 			"sentence": sentence,
 			"transcript": transcript,
+			"inference_time": inference_time,
 			"WER": wer_score,
 			"CER": cer_score
 		}
@@ -128,7 +128,6 @@ if __name__ == "__main__":
 		evaluated.update(additional_info)
 		evaluation.append(evaluated)
 
-	# Priemerné WER a CER
 	wer_scores = [item["WER"] for item in evaluation if item["WER"] is not None]
 	cer_scores = [item["CER"] for item in evaluation if item["CER"] is not None]
 

@@ -1,6 +1,6 @@
-from testing_speech_recognition import SpeechRecognitionModel
-from testing_whisper import WhisperModel
-from testing_wav2vec import Wav2Vec2Model
+from models.testing_speech_recognition import SpeechRecognitionModel
+from models.testing_whisper import WhisperModel
+from models.testing_wav2vec import Wav2Vec2Model
 import json
 import os
 import tkinter as tk
@@ -41,6 +41,8 @@ def transcribe_file(model_choice, audio_path, file_name):
         model = SpeechRecognitionModel(model="google")
     elif model_choice == "Whisper":
         model = SpeechRecognitionModel(model="whisper")
+    elif model_choice == "Sphinx":
+        model = SpeechRecognitionModel(model="sphinx")
     elif model_choice == "Whisper_openai":
         model = WhisperModel()
     elif model_choice == "Wav2Vec_large":
@@ -128,7 +130,7 @@ def transcribe():
 if __name__ == "__main__":
     root = tk.Tk()
     root.title("Speech Recognition GUI")
-    root.geometry("400x400")
+    root.geometry("400x450")
 
     folder_path = tk.StringVar()
     model_var = tk.StringVar(value="Model 1")
@@ -149,7 +151,7 @@ if __name__ == "__main__":
     model_frame.pack(pady=10)
     model_frame.config(padx=padding_x)
 
-    for model in ["Google", "Whisper", "Whisper_openai", "Wav2Vec_base", "Wav2Vec_large"]:
+    for model in ["Google", "Whisper", "Sphinx", "Whisper_openai", "Wav2Vec_base", "Wav2Vec_large"]:
         tk.Radiobutton(model_frame, text=model, variable=model_var, value=model).pack(
             anchor="w"
         )

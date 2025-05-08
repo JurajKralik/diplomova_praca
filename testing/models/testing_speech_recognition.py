@@ -13,6 +13,8 @@ class SpeechRecognitionModel:
                     text: str = self.recognizer.recognize_google(audio, show_all=False)
                 elif self.model == "whisper":
                     text: str = self.recognizer.recognize_whisper(audio)
+                elif self.model == "sphinx":
+                    text: str = self.recognizer.recognize_sphinx(audio, show_all=False)
                 else:
                     print("Model not supported")
                     return None
